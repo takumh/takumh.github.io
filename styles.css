@@ -1,20 +1,37 @@
 body{
-    /*background-color: #000000;*/
+    background-color: #000000;
+} 
+.contents {
+    background-color: #323232;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .content {
-    /*background-color: #323232;
-    color: #ffffff;*/
+    background-color: #323232;
+    color: #ffffff;
     /*centers the  content
     /*width: 500px;*/
     margin: auto;
     /*indents the content*/
     padding:25px 50px;
     /*border: thin solid black;*/
+    
 
 }
+
 img {
     width: 250px;
     height: 180px;
+}
+
+.image {
+flex-basis: 40%;
+}
+
+.header {
+    padding-left: 20px;
 }
 * {
 font-family:  'Times New Roman', Times, serif;
