@@ -1,4 +1,9 @@
+body{
+    background-color: #000000;
+}
 .content {
+    background-color: #323232;
+    color: #ffffff;
     width: 500px;
     margin: auto;
     padding:25px 50px;
