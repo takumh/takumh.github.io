@@ -1,12 +1,26 @@
 body{
-    background-color: #000000;
+    /*background-color: #000000;*/
 }
 .content {
-    background-color: #323232;
-    color: #ffffff;
-    width: 500px;
+    /*background-color: #323232;
+    color: #ffffff;*/
+    /*centers the  content
+    /*width: 500px;*/
     margin: auto;
+    /*indents the content*/
     padding:25px 50px;
-    border: thin solid black;
+    /*border: thin solid black;*/
 
+}
+img {
+    width: 250px;
+    height: 180px;
+}
+* {
+font-family:  'Times New Roman', Times, serif;
+/*font-size: medium;*/
+}
+
+li {
+list-style: circle ;
 }
