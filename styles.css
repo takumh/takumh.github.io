@@ -4,11 +4,19 @@
 .contents {
     /*background-color: #323232;
     color: #ffffff;
-    /*put picture and text side by side*/ 
+
+    /*put picture and text side by side*
     display: flex;
     align-items: left;
     justify-content: left;
-    padding: 50px 100px;
+    padding: 50px 100px;*/
+    /*use grid instead of padding*/
+
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas: "image about contacts";
+   
+
 
 }
 .content {
@@ -26,10 +34,16 @@
 
 }
 .about{
-    margin: auto;
-    /*indents the content*/
-    padding:50px 200px;
-    text-align: justify;
+    text-align: start;
+
+    /*indents the content
+    padding:20px 25px;
+    text-align: justify;*/
+
+    
+    /* FOR DARK MODE
+    background-color: #323232;
+    color: #ffffff;*/
 }
 .top {
 padding: 50px 200px;
@@ -40,8 +54,8 @@ img {
     height: 180px;
     object-fit: cover;
     background-position: center;
-    border-radius: 50%;
-    padding: 25px 100px;
+    border-radius: 100%;
+    padding: 25px 25px;
 
 }
 
@@ -49,12 +63,8 @@ img {
 flex-basis: 40%;
 }
 
-.header {
-    font-size: 20px;
-    padding-left: 20px;
-}
 * {
-font-family:  'Times New Roman', Times, serif;
+  font-family: 'Arvo', serif;
 /*font-size: large;*/
 }
 
@@ -64,13 +74,21 @@ list-style: circle ;
 
 /* Add a black background color to the top navigation */
 .topnav {
+    /*FOR LIGHT MODE*/
     background-color: #333;
+    /*FOR DARK MODE
+    background-color: #f2f2f2;*/
     overflow: hidden;
+    
   }
   
   /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
+    /*FOR DARK MODE
+    color: #333;*/
+
+    /*FOR LIGHT MODE*/
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
@@ -80,12 +98,17 @@ list-style: circle ;
   
   /* Change the color of links on hover */
   .topnav a:hover {
+    /* FOR LIGHT MODE*/
     background-color: #ddd;
     color: black;
+
+     /* FOR DARK MODE
+    color: #ddd;
+    background-color: black;*/
   }
   
   /* Add a color to the active/current link */
   .topnav a.active {
-    background-color: #04AA6D;
+    background-color: #d4ffef;
     color: white;
   }
