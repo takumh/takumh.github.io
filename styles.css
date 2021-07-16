@@ -1,6 +1,7 @@
-/*body{
-    background-color: #000000;
-}*/
+body{
+    /*background-color: #000000;*/
+    background-color: rgb(245, 245, 245);
+}
 .contents {
     /*background-color: #323232;
     color: #ffffff;
@@ -19,8 +20,6 @@
     grid-template-areas: "image about"
                          "image contacts";
    
-
-
 }
 .content {
     /*background-color: #323232;
@@ -46,7 +45,8 @@
   border-width: medium;
   border-color: grey;
  padding: 1em 1em;
- background-color: rgb(245, 245, 245);
+ background-color: white;
+
 }
 
 .about{
@@ -71,6 +71,7 @@ margin-top: 8em;
 margin-left: 12em;
 margin-right: 12em;
 margin-bottom: 2em;
+
 }
 
 .contacts{
@@ -103,15 +104,17 @@ li {
 list-style: circle ;
 }
 
+.nav_contents{
+  margin-left: 12em;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
     /*FOR LIGHT MODE*/
     background-color:#332064;
     /*FOR DARK MODE
     background-color: #f2f2f2;*/
-    overflow: hidden;
-    
-    
+    overflow: hidden; 
   }
   
   /* Style the links inside the navigation bar */
