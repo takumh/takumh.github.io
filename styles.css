@@ -14,12 +14,16 @@ body{
     /*use grid instead of padding*/
     margin-left: 12em;
     margin-right: 12em;
+    margin-bottom: 2em;
     display:grid;
     grid-template-columns: 1fr 2fr ;
     grid-template-rows: 1fr 1fr;
     grid-template-areas: "image about"
                          "image contacts";
    
+}
+p, h5, h4, h3, h2{
+  margin-bottom: 0;
 }
 .content {
     /*background-color: #323232;
@@ -28,8 +32,9 @@ body{
     /*centers the  content
     width: 500px;*/
     margin-top: 2em;
-    margin-left: 12em;
-    margin-right: 12em;
+    margin-left: 15em;
+    margin-right: 17em;
+    margin-bottom: 3em;
     /*indents the content
     padding:1em 2em;*/
     text-align: justify;  
@@ -38,14 +43,15 @@ body{
 
 .cv{
   margin-top: 2em;
-  margin-left: 16em;
+  margin-left: 14em;
   margin-right: 16em;
+  margin-bottom: 3em;
   text-align: justify;  
   border-style: solid;
   border-width: medium;
   border-color: grey;
- padding: 1em 1em;
- background-color: white;
+ padding: 1em 1em 3em ;
+ background-color: rgb(240, 240, 240);
 
 }
 
