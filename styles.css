@@ -156,7 +156,7 @@ list-style: circle ;
     color: white;
   }
 
-    @media only screen  and (max-width: 2360px){
+    @media only screen  and (max-width: 1024px){
     *{
       margin:0;
       padding: 0;
@@ -196,9 +196,9 @@ list-style: circle ;
   }
   .top {
     margin-top: 1em;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
-    margin-bottom: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 2em;
     }
     .cv{
       margin-top: 2em;
