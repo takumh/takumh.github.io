@@ -151,7 +151,7 @@ list-style: circle ;
   }
   
   /* Add a color to the active/current link */
-  .topnav a:active {
+  .topnav a.active {
     background-color: black;
     color: white;
   }
@@ -327,26 +327,30 @@ list-style: circle ;
     
     /* Add a black background color to the top navigation */
     .topnav {
-        /*FOR LIGHT MODE*/
-        background-color:#332064;
-        /*FOR DARK MODE
-        background-color: #f2f2f2;*/
-        overflow: hidden;
-        padding: 1em;
+      overflow: hidden;
+      padding: 1em;
+      /*FOR LIGHT MODE*/
+      background-color:#332064;
+
+      /*FOR DARK MODE
+       background-color: #f2f2f2;*/
+       
       }
       
       /* Style the links inside the navigation bar */
       .topnav a {
         float: none;
+        text-align: center;
+        padding: 1em 1em 1em 0em;
+        text-decoration: none;
+        font-size: 1.0625em;
+
         /*FOR DARK MODE
         color: #333;*/
     
         /*FOR LIGHT MODE*/
         color: #f2f2f2;
-        text-align: center;
-        padding: 1em 1em 1em 0em;
-        text-decoration: none;
-        font-size: 1.0625em;
+        
        
       }
 
