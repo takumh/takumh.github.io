@@ -7,72 +7,28 @@ body{
     /*background-color: #000000;*/
     background-color: rgb(245, 245, 245);
 }
-.contents {
-    /*background-color: #323232;
-    color: #ffffff;*/
 
-    /*use grid instead of padding*/
-    margin-left: 12em;
-    margin-right: 12em;
-    margin-bottom: 2em;
-    display:grid;
-    grid-template-columns: 1fr 2fr ;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: "image about"
-                         "image contacts";
-   
-}
 p, h5, h4, h3, h2{
   margin-bottom: 0;
 }
-.content {
-    /*background-color: #323232;
+
+/* .content {
+    background-color: #323232;
     color: #ffffff;
 
     /*centers the  content
-    width: 500px;*/
+    width: 500px;
     margin-top: 2em;
     margin-left: 15em;
     margin-right: 17em;
     margin-bottom: 3em;
+
     /*indents the content
-    padding:1em 2em;*/
+    padding:1em 2em;
     text-align: justify; 
-   
+}*/
 
-}
 
-.cv{
-  margin-top: 2em;
-  margin-left: 14em;
-  margin-right: 16em;
-  margin-bottom: 3em;
-  text-align: justify;  
-  border-style: solid;
-  border-width: medium;
-  border-color: grey;
- padding: 1em 1em 3em ;
- background-color: rgb(240, 240, 240);
-
-}
-
-.about{
-  margin: 2em;
-  grid-area: about;
-  text-align: start;
-
-    /*indents the content
-    padding:20px 25px;
-    text-align: justify;*/
-
-    
-    /* FOR DARK MODE
-    background-color: #323232;
-    color: #ffffff;*/
-}
-.abt{
-  line-height: 2;
-}
 .top {
 margin-top: 8em;
 margin-left: 12em;
@@ -80,28 +36,7 @@ margin-right: 12em;
 margin-bottom: 2em;
 }
 
-.contacts{
-grid-area: contacts;
-margin-left: 2em;
 
-}
-
-
-img {
-  grid-area: image;
-    width: 16em;
-    height: 16em;
-    object-fit: cover;
-    background-position: center;
-    border-radius: 100%;
-    padding: 2em 2em;
-
-}
-
-.image {
-flex-basis: 40%;
-
-}
 
 
 
@@ -208,18 +143,15 @@ list-style: circle ;
       text-align: justify;  
      background-color: rgb(240, 240, 240);
     }
-    img {
-      grid-area: image;
-        width: 11.25em;
-        height: 11.25em;
-        object-fit: cover;
-        background-position: center;
-        border-radius: 100%;
-        padding: 1em 1em;
-    }
+
     .image {
       flex-basis: 0%;
-      
+      width: 11.25em;
+      height: 11.25em;
+      object-fit: cover;
+      background-position: center;
+      border-radius: 100%;
+      padding: 1em 1em;
       }
 
     .nav_contents{
@@ -307,17 +239,15 @@ list-style: circle ;
      background-color: rgb(240, 240, 240);
      border: none;
  }
-    img {
-      grid-area: image;
-        width: 11.25em;
+ 
+    .image {
+      flex-basis: 0%;
+      width: 11.25em;
         height: 11.25em;
         object-fit: cover;
         background-position: center;
         border-radius: 100%;
         padding: 1em 1em;
-    }
-    .image {
-      flex-basis: 0%;
       
       }
 
