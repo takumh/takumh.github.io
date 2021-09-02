@@ -1,5 +1,22 @@
 * {box-sizing: border-box}
-
+a:link {
+	color: rgb(250, 230, 54);
+	background-color: transparent;
+	text-decoration: none;
+  }
+  
+  a:hover {
+	color: red;
+	background-color: transparent;
+	text-decoration: underline;
+  }
+  
+  a:active {
+	color: rgb(140, 0, 255);
+	background-color: transparent;
+	text-decoration: underline;
+  }
+  
 /* Container needed to position the overlay. Adjust the width as needed */
 .container {
   position: relative;

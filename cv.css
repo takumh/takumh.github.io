@@ -12,6 +12,25 @@
   
   }
 
+  a:link {
+    color: rgb(54, 90, 250);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: rgb(140, 0, 255);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+
   @media only screen  and (max-width: 1024px){
     *{
       margin:0;

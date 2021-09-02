@@ -29,23 +29,6 @@ p, h5, h4, h3, h2{
 }*/
 
 
-a:link {
-  color: green;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:hover {
-  color: red;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-a:active {
-  color: yellow;
-  background-color: transparent;
-  text-decoration: underline;
-}
 
 .top {
   
@@ -105,9 +88,10 @@ list-style: circle ;
   }
   
   /* Add a color to the active/current link */
-  .topnav a.active {
-    background-color: black;
-    color: white;
+  .topnav a:active {
+    background-color: #ddd;
+    color: black;
+
   }
 
     @media only screen  and (max-width: 1024px){
