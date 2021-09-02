@@ -1,7 +1,7 @@
+
 .contents {
     /*background-color: #323232;
-    color: #ffffff;*/
-
+  
     /*use grid instead of padding*/
     margin-left: 12em;
     margin-right: 12em;
@@ -13,6 +13,7 @@
                          "image contacts";
    
 }
+
 
 img{
     grid-area: image;

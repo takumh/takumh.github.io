@@ -5,7 +5,7 @@
 
 body{
     /*background-color: #000000;*/
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(219, 219, 219);
 }
 
 p, h5, h4, h3, h2{
@@ -29,7 +29,26 @@ p, h5, h4, h3, h2{
 }*/
 
 
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 .top {
+  
 margin-top: 8em;
 margin-left: 12em;
 margin-right: 12em;
@@ -98,6 +117,7 @@ list-style: circle ;
       font-size: small;
     }
     .contents {
+      
       /*background-color: #323232;
       color: #ffffff;*/
   
@@ -115,6 +135,7 @@ list-style: circle ;
 
   }
   .content {
+    background-color: rgb(219, 219, 219);
     /*background-color: #323232;
     color: #ffffff;
     
