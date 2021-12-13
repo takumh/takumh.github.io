@@ -1,7 +1,7 @@
 .cv{
     margin-top: 2em;
-    margin-left: 14em;
-    margin-right: 16em;
+    margin-left: 20em;
+    margin-right: 20em;
     margin-bottom: 3em;
     text-align: justify;  
     border-style: solid;
@@ -11,6 +11,12 @@
    background-color: rgb(240, 240, 240);
   
   }
+  h1,h2,h3,h4,h5,h6{
+    margin-bottom: 0.5px;
+    padding-bottom: 0px;
+}
+
+hr { margin: 0.1em auto; }
 
   a:link {
     color: rgb(54, 90, 250);
@@ -44,10 +50,14 @@
     margin-right: 2em;
     margin-bottom: 2em;
     }
+    h1,h2,h3,h4,h5,h6{
+      margin-bottom: 0px;
+      padding-bottom: 0px;
+  }
     .cv{
       margin-top: 2em;
-      margin-left: 2em;
-      margin-right: 2em;
+      margin-left: 4em;
+      margin-right: 4em;
       margin-bottom: 2em;
       text-align: justify;  
      background-color: rgb(240, 240, 240);
@@ -93,7 +103,10 @@
       font-size: small;
     }
     
-    
+    h1,h2,h3,h4,h5,h6{
+      margin-bottom: 0px;
+      padding-bottom: 0px;
+  }
     
   .top {
     margin-top: 1em;
