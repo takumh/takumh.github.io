@@ -1,7 +1,7 @@
 .cv{
     margin-top: 2em;
-    margin-left: 20em;
-    margin-right: 20em;
+    margin-left: 10em;
+    margin-right: 45em;
     margin-bottom: 3em;
     text-align: justify;  
     border-style: solid;
@@ -9,9 +9,11 @@
     border-color: grey;
    padding: 1em 1em 3em ;
    background-color: rgb(240, 240, 240);
+   font-size: small;
   
   }
-  h1,h2,h3,h4,h5,h6{
+  h2,h3,h4,h5,h6{
+    font-size: small;
     margin-bottom: 0.5px;
     padding-bottom: 0px;
 }
