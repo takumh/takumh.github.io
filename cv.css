@@ -1,19 +1,22 @@
 .cv{
     margin-top: 2em;
-    margin-left: 10em;
-    margin-right: 45em;
+    margin-left: 15em;
+    margin-right: 20em;
     margin-bottom: 3em;
     text-align: justify;  
     border-style: solid;
     border-width: medium;
     border-color: grey;
+    overflow-y: scroll;
    padding: 1em 1em 3em ;
    background-color: rgb(240, 240, 240);
-   font-size: small;
   
+   height: 45em;
+  
+
   }
   h2,h3,h4,h5,h6{
-    font-size: small;
+    
     margin-bottom: 0.5px;
     padding-bottom: 0px;
 }
