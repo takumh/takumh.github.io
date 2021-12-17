@@ -18,16 +18,6 @@ a:link {
   }
   
 /* Container needed to position the overlay. Adjust the width as needed */
-.row{
-  display:flex;
-  flex-wrap: wrap;
-  padding: 0 2px;
-}
-.column{
-  flex:50%;
-  max-width: 50%;
-  
-}
 .container {
   position: relative;
   width: 100%;
@@ -160,100 +150,9 @@ a:link {
 
   }
 
-  @media only screen and (max-width: 830px){
-    *{
-      margin:0;
-      padding: 0;
-      font-size: small;
-    }
-    
-	* {box-sizing: border-box}
-
-  .column{
-    flex:100%;
-    max-width: 100%;
-  }
-	/* Container needed to position the overlay. Adjust the width as needed */
-	.container {
-    
-    opacity: 1 !important;
-
-	  position: relative;
-	  width: 100%;
-	  max-width: 18.75em;
-	  margin-top: 1em;
-	  margin-bottom: 1em;
-	  margin-left: 4em;
-	}
-	
-	/* Make the image to responsive */
-	.img {
-	  width: 30em;
-	  height: 15em;
-	}
-	
-	/* The overlay effect - lays on top of the container and over the image */
-	.overlay {
-	  position: absolute; 
-	  
-	  left: 0.5em;
-	  bottom: 0; 
-	  background: rgb(0, 0, 0);
-	  background: rgba(0, 0, 0, 0.616); /* Black see-through */
-	  color: #f1f1f1; 
-	  width: 25em;
-	  height: 12.75em;
-	  transition: .5s ease;
-	  opacity:0;
-	  color: white;
-	  font-size: 1.2em;
-	  padding: 1.25em;
-	  text-align: center;
-	}
-	
-	/* When you mouse over the container, fade in the overlay title */
-	.container:hover .overlay {
-	  opacity: 1;
-	}
-
-  .top {
-    margin-top: 1em;
-    margin-left: 2em;
-    margin-right: 2em;
-    margin-bottom: 2em;
-    }
-
-    .nav_contents{
-      margin-left: 1em;
-    }
-    
-    /* Add a black background color to the top navigation */
-    .topnav {
-        /*FOR LIGHT MODE*/
-        background-color:#332064;
-        /*FOR DARK MODE
-        background-color: #f2f2f2;*/
-        overflow: hidden;
-        padding: 1em;
-      }
-      
-      /* Style the links inside the navigation bar */
-      .topnav a {
-        float: none;
-        /*FOR DARK MODE
-        color: #333;*/
-    
-        /*FOR LIGHT MODE*/
-        color: #f2f2f2;
-        text-align: center;
-        padding: 1em 1em 1em 0em;
-        text-decoration: none;
-        font-size: 1.0625em;
-       
-      }
-
-  }
-
+ 
+  
+     
   @media only screen and (max-width: 414px){
 	*{
 		margin:0;
@@ -273,11 +172,8 @@ a:link {
 		margin-left: 4em;
 	  }
 
-    .column{
-      flex:25%;
-      max-width: 25%;
-      
-    }
+    
+    
 	  
 	  /* Make the image to responsive */
 	  .img {
@@ -366,11 +262,7 @@ a:link {
   margin-left: 2em;
 }
 
-.column{
-  flex:100%;
-  max-width: 100%;
-  
-}
+
 /* Make the image to responsive */
 .img {
   width: 15em;
