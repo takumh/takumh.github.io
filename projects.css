@@ -68,6 +68,9 @@ a:link {
 
 	/* Container needed to position the overlay. Adjust the width as needed */
 	.container {
+    
+    opacity: 1 !important;
+
 	  position: relative;
 	  width: 100%;
 	  max-width: 18.75em;
@@ -279,6 +282,7 @@ a:link {
 
 /* When you mouse over the container, fade in the overlay title */
 .container:hover .overlay {
+
   opacity: 1;
 }
     

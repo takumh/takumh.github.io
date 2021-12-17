@@ -127,6 +127,16 @@ hr { margin: 0.1em auto; }
       text-align: justify;  
      background-color: rgb(240, 240, 240);
      border: none;
+    
+     clear: auto;
+    
+ }
+ 
+
+ ul{
+  list-style-type:none;
+  padding: 0;
+  margin: 0;
  }
    
 
