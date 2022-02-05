@@ -90,7 +90,7 @@ list-style: circle ;
   
   /* Add a color to the active/current link */
   .topnav a:active {
-    background-color: #ddd;
+    background-color: rgb(255, 255, 255);
     color: black;
 
   }
