@@ -21,7 +21,7 @@ a:link {
 .container {
   position: relative;
   width: 100%;
-  max-width: 18.75em;
+  max-width: 20em;
   margin-top: 2em;
   margin-bottom: 2em;
   margin-left: 2em;
@@ -46,25 +46,22 @@ grid-auto-rows: var(--row-height);
 gap: var(--gap);
 }
 /* Make the image to responsive */
-.img {
-  width: 25em;
-  height: 15em;
+img.animated-gif{
+  width: 15em;
+  height: auto;
 }
- 
-
-
 
 /* The overlay effect - lays on top of the container and over the image */
 .overlay {
   position: absolute; 
-  
+  top: 1em;
   left: 0em;
-  bottom: 0; 
+  bottom: 1em; 
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.616); /* Black see-through */
   color: #f1f1f1; 
-  width: 21em;
-  height: 12.75em;
+  width: 12em;
+  height: 23em;
   transition: .5s ease;
   opacity:0;
   color: white;
@@ -75,7 +72,7 @@ gap: var(--gap);
 
 /* When you mouse over the container, fade in the overlay title */
 .container:hover .overlay {
-  opacity: 1;
+  opacity: 5;
 }
 
   @media only screen  and (max-width: 1024px){
@@ -115,11 +112,10 @@ gap: var(--gap);
   }
     
 	/* Make the image to responsive */
-	.img {
-	  width: 30em;
-	  height: 15em;
-	}
-
+  img.animated-gif{
+    width: 15em;
+    height: auto;
+  }
 	
 	/* The overlay effect - lays on top of the container and over the image */
 	.overlay {
@@ -130,8 +126,8 @@ gap: var(--gap);
 	  background: rgb(0, 0, 0);
 	  background: rgba(0, 0, 0, 0.616); /* Black see-through */
 	  color: #f1f1f1; 
-	  width: 25em;
-	  height: 12.75em;
+	  width: 14em;
+	  height: 23em;
 	  transition: .5s ease;
 	  opacity:0;
 	  color: white;
@@ -142,7 +138,7 @@ gap: var(--gap);
 	
 	/* When you mouse over the container, fade in the overlay title */
 	.container:hover .overlay {
-	  opacity: 1;
+	  opacity: 5;
 	}
 
   .top {
@@ -209,7 +205,7 @@ gap: var(--gap);
 .img-grid{
   --gap:0.2em;
   --num-cols:2;
-  --row-height: 17em;
+  --row-height: 30em;
   
   box-sizing: border-box;
   padding: var(--gap);
@@ -221,9 +217,9 @@ gap: var(--gap);
 }
   
 /* Make the image to responsive */
-.img {
-  width: 25em;
-  height: 15em;
+.img.animated-gif {
+  width: 12em;
+  height: auto;
 }
 
 /* The overlay effect - lays on top of the container and over the image */
@@ -235,8 +231,8 @@ gap: var(--gap);
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.616); /* Black see-through */
   color: #f1f1f1; 
-  width: 22em;
-  height: 12.75em;
+  width: 12em;
+  height: 23em;
   transition: .5s ease;
   opacity:0;
   color: white;
@@ -247,7 +243,7 @@ gap: var(--gap);
 
 /* When you mouse over the container, fade in the overlay title */
 .container:hover .overlay {
-  opacity: 1;
+  opacity: 5;
 }
 
 .top {
@@ -305,13 +301,13 @@ gap: var(--gap);
 		max-width: 18.75em;
 		margin-top: 1em;
 		margin-bottom: 1em;
-		margin-left: 4em;
+		margin-left: 2em;
 	  }
 
     .img-grid{
-      --gap:16px;
-      --num-cols:1;
-      --row-height: 17em;
+      --gap:10px;
+      --num-cols:2;
+      --row-height: 22em;
       
       box-sizing: border-box;
       padding: var(--gap);
@@ -323,9 +319,9 @@ gap: var(--gap);
     }
     
 	  /* Make the image to responsive */
-	  .img {
-		width: 25em;
-		height: 15em;
+	  .img.animated-gif {
+		width: 15em;
+		height: auto;
 	  }
 	  
 	  /* The overlay effect - lays on top of the container and over the image */
@@ -338,8 +334,8 @@ gap: var(--gap);
 		background: rgb(0, 0, 0);
 		background: rgba(0, 0, 0, 0.616); /* Black see-through */
 		color: #f1f1f1; 
-		width: 21em;
-		height: 13em;
+		width: 12em;
+		height: 23em;
 		transition: .5s ease;
 		opacity:0;
 		color: white;
@@ -350,7 +346,7 @@ gap: var(--gap);
 	  
 	  /* When you mouse over the container, fade in the overlay title */
 	  .container:hover .overlay {
-		opacity: 1;
+		opacity: 5;
 	  }
   
 	.top {
@@ -407,14 +403,14 @@ gap: var(--gap);
 		width: 100%;
 		max-width: 18.75em;
 		margin-top: 1em;
-		margin-bottom: 1em;
+		margin-bottom: 4em;
 		margin-left: 4em;
 	  }
 
     .img-grid{
       --gap:16px;
       --num-cols:1;
-      --row-height: 9.9em;
+      --row-height: 28em;
       
       box-sizing: border-box;
       padding: var(--gap);
@@ -426,9 +422,9 @@ gap: var(--gap);
     }
     
 	  /* Make the image to responsive */
-	  .img {
+	  img.animated-gif {
 		width: 15em;
-		height: 9.7em;
+		height: auto;
 	  }
 	  
 	  /* The overlay effect - lays on top of the container and over the image */
@@ -442,7 +438,7 @@ gap: var(--gap);
 		background: rgba(0, 0, 0, 0.616); /* Black see-through */
 		color: #f1f1f1; 
 		width: 13em;
-		height: 8.6em;
+		height: 24em;
 		transition: .5s ease;
 		opacity:0;
 		color: white;
@@ -510,12 +506,12 @@ gap: var(--gap);
   max-width: 18.75em;
   margin-top: 1em;
   margin-bottom: 1.5em;
-  margin-left: 2em;
+  margin-left: 1em;
 }
 
 .img-grid{
-  --gap:16px;
-  --num-cols:1;
+  --gap:10px;
+  --num-cols:2;
   --row-height: 9.9em;
   
   box-sizing: border-box;
@@ -528,9 +524,9 @@ gap: var(--gap);
 }
 
 /* Make the image to responsive */
-.img {
-  width: 15em;
-  height: 9.7em;
+img.animated-gif {
+  width: 10em;
+  height: auto;
   bottom:1em;
 }
 
@@ -544,8 +540,8 @@ gap: var(--gap);
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.616); /* Black see-through */
   color: #f1f1f1; 
-  width: 13em;
-  height: 8.6em;
+  width: 8em;
+  height: 16em;
   transition: .5s ease;
   opacity:0;
   color: white;
