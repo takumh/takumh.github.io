@@ -65,7 +65,23 @@ img{
   text-align: justify;
 }
 
-@media only screen  and (max-width: 810px){
+@media only screen  and (max-width: 1300px){
+  .contents{
+    margin-left: 20em;
+    margin-right: 20em;
+    font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .contents{
+    margin-left: 10em;
+    margin-right: 10em;
+  }
+}
+
+@media only screen  and (max-width: 830px){
   .topnav ul{
     
     margin-left: 0em;
@@ -90,10 +106,17 @@ img{
   }
   
  .contents{
-  margin-left: 2em;
-  margin-right: 2em;
+  margin-left: 10em;
+  margin-right: 10em;
  }
   
+}
+
+@media screen and (max-width: 550px) {
+  .contents{
+    margin-left: 5em;
+    margin-right: 5em;
+  }
 }
 
 @media only screen and (max-width: 480px){
@@ -154,3 +177,9 @@ img{
  }
 }
 
+@media screen and (max-width: 300px) {
+  .contents{
+    margin-left: 0.5em;
+    margin-right: 0em;
+  }
+}
