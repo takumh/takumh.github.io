@@ -1,0 +1,156 @@
+.body{
+  margin-bottom: 2em;
+}
+
+.topnav{
+  width: 100%;
+  background-color: rgba(0,0,0,.2) ;
+}
+
+.topnav ul{
+  text-align: center;
+}
+
+.topnav ul li{
+  list-style: none;
+  display: inline-block;
+}
+
+.topnav ul li a{
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-size: 20px;
+  font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  font-weight: 600;
+  padding: 25px;
+  transition: all ease 0.5s;
+}
+
+.topnav ul li a:hover{
+  background-color: #211b4385;
+}
+
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 16em;
+  height: 16em;
+  object-fit: cover;
+  background-position: center;
+  border-radius: 100%;
+  padding: 2em 2em;
+}
+
+.image {
+  flex-basis: 40%;
+}
+
+.contents{
+  margin-left: 30em;
+  margin-right: 30em;
+  font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
+  line-height: 1.5em;
+}
+
+.contents h1,h2,h3{
+  text-align: center;
+}
+
+.contents p{
+  text-align: justify;
+}
+
+@media only screen  and (max-width: 810px){
+  .topnav ul{
+    
+    margin-left: 0em;
+  }
+
+  .topnav ul li a:hover{
+    background-color: #211b4385;
+  }
+
+  .topnav ul li a{
+    margin-left: 0em;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 20px;
+    font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 500;
+    padding: 5px;
+    transition: all ease 0.5s;
+  }
+  
+ .contents{
+  margin-left: 2em;
+  margin-right: 2em;
+ }
+  
+}
+
+@media only screen and (max-width: 480px){
+  .topnav ul{
+    text-align:left;
+  }
+
+  .topnav ul li a:hover{
+    background-color: #211b4385;
+  }
+
+  .topnav ul li a{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 20px;
+    font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 500;
+    padding: 5px;
+    transition: all ease 0.5s;
+  }
+  
+ .contents{
+  margin-left: 2em;
+  margin-right: 2em;
+ }
+}
+
+@media only screen  and (max-width: 375px ){
+  .topnav ul{
+    
+    margin-left: 0em;
+  }
+
+  .topnav ul li a:hover{
+    background-color: #211b4385;
+  }
+
+  .topnav ul li a{
+    margin-left: 0em;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 20px;
+    font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 500;
+    padding: 5px;
+    transition: all ease 0.5s;
+  }
+  
+ .contents{
+  margin-left: 2em;
+  margin-right: 2em;
+ }
+}
+
