@@ -63,6 +63,8 @@ hr { margin: 0.1em auto; }
   height:auto;
   border-top-left-radius: 1em;
   border-top-right-radius: 1em;
+  border-bottom-right-radius: 1em;
+  border-bottom-left-radius: 1em;
 
 }
 
@@ -72,6 +74,7 @@ hr { margin: 0.1em auto; }
 }
 
 .cards-info >h1{
+  text-align: center;
   font-size: 1.2em;
   line-height: 120%;
   margin-bottom: 0.5em;
