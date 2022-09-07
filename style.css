@@ -138,21 +138,56 @@ header label{
     text-align:left;
   }
 
+
   header .topnav ul li a:hover{
     background-color: #211b4385;
   }
-
+  
   header .topnav ul li a{
+    margin-left: 0em;
     display: block;
     text-decoration: none;
     text-transform: uppercase;
-    color: black;
+    color: white;
     font-size: 20px;
     font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
     font-weight: 600;
-    padding: 5px;
+    padding: 8px;
     transition: all ease 0.5s;
+  }
+  
+  header .topnav{
+    position: absolute;
+    /*top: 100%;*/ left: 0; right: 0;
+    background-color: #41464b;
+    border-top: 1px solid grey;
+    display: none;
+  }
+  
+  header .topnav ul{
+    margin-left: 0em;
+    text-align: center;
+  }
+  
+  header .topnav ul li{
+    width: 100%;
+  }
+  
+  header .topnav ul li a:hover{
+    background-color: #211b4385;
+  }
+  
+  header label{
+    text-align: center;
+    display: block;
+   /* display: initial;*/
+    background-color: #41464b; 
+    margin-left: 0em;
+  }
+  
+  #menu-bar:checked ~ .topnav{
+    display: initial ; 
   }
   
  .contents{
@@ -173,6 +208,7 @@ header label{
 
   header .topnav ul{
     margin-left: 0em;
+    text-align: center;
   }
 
   header .topnav ul li{
@@ -187,13 +223,13 @@ header label{
     margin-left: 0em;
     display: block;
     text-decoration: none;
-    text-transform: lowercase;
+    text-transform: uppercase;
     color: white;
     font-size: 20px;
     font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
     font-weight: 600;
-    padding: 5px;
+    padding: 8px;
     transition: all ease 0.5s;
   }
   
