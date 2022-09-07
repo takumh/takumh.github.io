@@ -1,23 +1,22 @@
-
 .body{
   background-color: #f2f3f7;;
 }
 
-.topnav{
+header .topnav{
   width: 100%;
   background-color: rgba(0,0,0,.2) ;
 }
 
-.topnav ul{
+header .topnav ul{
   text-align: center;
 }
 
-.topnav ul li{
+header .topnav ul li{
   list-style: none;
   display: inline-block;
 }
 
-.topnav ul li a{
+header .topnav ul li a{
   display: block;
   text-decoration: none;
   text-transform: uppercase;
@@ -30,7 +29,7 @@
   transition: all ease 0.5s;
 }
 
-.topnav ul li a:hover{
+header .topnav ul li a:hover{
   background-color: #211b4385;
 }
 
@@ -65,7 +64,6 @@ hr { margin: 0.1em auto; }
   border-top-right-radius: 1em;
   border-bottom-right-radius: 1em;
   border-bottom-left-radius: 1em;
-
 }
 
 .cards-info{
@@ -87,6 +85,22 @@ hr { margin: 0.1em auto; }
   text-align: justify;
   line-height: 130%;
   margin-top: 0.5em;
+}
+
+#menu-bar{
+  display: none;
+}
+
+header label{
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  font-weight: 600;
+  color:white;
+  cursor: pointer;
+  display: none;
 }
 
 @media only screen  and (max-width: 1024px){
@@ -123,13 +137,12 @@ hr { margin: 0.1em auto; }
     border-top-right-radius: 1em;
     border-bottom-right-radius: 1em;
     border-bottom-left-radius: 1em;
-  
   }
 
 }
 
 @media only screen  and (max-width: 480px ){
-  .topnav ul li a:hover{
+  header .topnav ul li a:hover{
     background-color: #211b4385;
   }
   
@@ -149,10 +162,9 @@ hr { margin: 0.1em auto; }
     border-top-right-radius: 1em;
     border-bottom-right-radius: 1em;
     border-bottom-left-radius: 1em;
-  
   }
 
-  .topnav ul li a{
+  header .topnav ul li a{
     margin-top: 1em;
     display: block;
     text-decoration: none;
@@ -176,9 +188,11 @@ hr { margin: 0.1em auto; }
     padding: 0;
     font-size: small;
   }
+
   .float-right{
     float: none;
   }
+
  br{
    display: none;
  }
@@ -199,27 +213,58 @@ hr { margin: 0.1em auto; }
   border-top-right-radius: 1em;
   border-bottom-right-radius: 1em;
   border-bottom-left-radius: 1em;
-
 }
 
 
- .topnav ul li a:hover{
+ header .topnav ul li a:hover{
   background-color: #211b4385;
  }
 
-.topnav ul li a{
-  margin-top: 1em;
+header .topnav ul li a{
+  margin-left: 0em;
   display: block;
   text-decoration: none;
-  text-transform: uppercase;
-  color: black;
+  text-transform: lowercase;
+  color: white;
   font-size: 20px;
   font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
   letter-spacing: 1px;
-  font-weight: 500;
+  font-weight: 600;
   padding: 5px;
   transition: all ease 0.5s;
  }
+
+ header .topnav{
+  position: absolute;
+  /*top: 100%;*/ left: 0; right: 0;
+  background-color: #41464b;
+  border-top: 1px solid grey;
+  display: none;
+}
+
+header .topnav ul{
+  margin-left: 0em;
+}
+
+header .topnav ul li{
+  width: 100%;
+}
+
+header .topnav ul li a:hover{
+  background-color: #211b4385;
+}
+
+header label{
+  text-align: center;
+  display: block;
+ /* display: initial;*/
+  background-color: #41464b; 
+  margin-left: 0em;
+}
+
+#menu-bar:checked ~ .topnav{
+  display: initial ; 
+}
 
  ul{
   list-style-type:none;
