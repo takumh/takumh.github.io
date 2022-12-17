@@ -1,0 +1,268 @@
+.body{
+  background-color: #f2f3f7;;
+}
+
+.cv{
+  margin-top: 2em;
+  margin-left: 15em;
+  margin-right: 20em;
+  margin-bottom: 3em;
+  text-align: justify;  
+  border-style: solid;
+  border-width: medium;
+  border-color: grey;
+  overflow-y: scroll;
+ padding: 1em 1em 3em ;
+ background-color: rgb(240, 240, 240);
+
+ height: 45em;
+
+
+}
+
+header .topnav{
+  width: 100%;
+  background-color: rgba(0,0,0,.2) ;
+}
+
+header .topnav ul{
+  text-align: center;
+}
+
+header .topnav ul li{
+  list-style: none;
+  display: inline-block;
+}
+
+header .topnav ul li a{
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black ;
+  font-size: 20px;
+  font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  font-weight: 600;
+  padding: 25px;
+  transition: all ease 0.5s;
+}
+
+header .topnav ul li a:hover{
+  background-color: #211b4385;
+}
+h2,h3,h4,h5,h6{
+  
+  margin-bottom: 0.5px;
+  padding-bottom: 0px;
+}
+
+hr { margin: 0.1em auto; }
+
+#menu-bar{
+  display: none;
+}
+
+header label{
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  font-weight: 600;
+  color:white;
+  cursor: pointer;
+  display: none;
+}
+
+@media only screen  and (max-width: 1024px){
+  *{
+    margin:0;
+    padding: 0;
+    font-size: small;
+  }
+
+  .float-left{
+    float: left;
+  }
+
+  .float-right{
+    float: right;
+  }
+
+.top {
+  margin-top: 1em;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-bottom: 2em;
+  }
+  h1,h2,h3,h4,h5,h6{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+  .cv{
+    margin-top: 2em;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: 2em;
+    text-align: justify;  
+    background-color: #f2f3f7;
+   height: 60em;
+  }
+  
+
+}
+
+@media only screen  and (max-width: 480px ){
+  header .topnav ul li a:hover{
+    background-color: #211b4385;
+  }
+
+  header .topnav ul li a:hover{
+    background-color: #211b4385;
+  }
+  
+  header .topnav ul li a{
+    margin-left: 0em;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 600;
+    padding: 8px;
+    transition: all ease 0.5s;
+  }
+  
+  header .topnav{
+    position: absolute;
+    /*top: 100%;*/ left: 0; right: 0;
+    background-color: #41464b;
+    border-top: 1px solid grey;
+    display: none;
+  }
+  
+  header .topnav ul{
+    margin-left: 0em;
+    text-align: center;
+  }
+  
+  header .topnav ul li{
+    width: 100%;
+  }
+  
+  header .topnav ul li a:hover{
+    background-color: #211b4385;
+  }
+  
+  header label{
+    text-align: center;
+    display: block;
+   /* display: initial;*/
+    background-color: #41464b; 
+    margin-left: 0em;
+  }
+  
+  #menu-bar:checked ~ .topnav{
+    display: initial ; 
+  }
+
+  .cv{
+    border: none;
+    margin-left:1em;
+    margin-right: 1em;
+  }
+  
+}
+
+@media only screen  and (max-width: 375px ){
+  *{
+    margin:0;
+    padding: 0;
+    font-size: small;
+  }
+  .float-right{
+    float: none;
+  }
+ br{
+   display: none;
+ }
+
+  h1,h2,h3,h4,h5,h6,p{
+    margin-bottom: 0.5em;
+    padding-bottom: 0px;
+}
+
+header .topnav ul li a:hover{
+  background-color: #211b4385;
+}
+
+header .topnav ul li a{
+  margin-left: 0em;
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 20px;
+  font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  font-weight: 600;
+  padding: 8px;
+  transition: all ease 0.5s;
+}
+
+header .topnav{
+  position: absolute;
+  /*top: 100%;*/ left: 0; right: 0;
+  background-color: #41464b;
+  border-top: 1px solid grey;
+  display: none;
+}
+
+header .topnav ul{
+  margin-left: 0em;
+  text-align: center;
+}
+
+header .topnav ul li{
+  width: 100%;
+}
+
+header .topnav ul li a:hover{
+  background-color: #211b4385;
+}
+
+header label{
+  text-align: center;
+  display: block;
+ /* display: initial;*/
+  background-color: #41464b; 
+  margin-left: 0em;
+}
+
+#menu-bar:checked ~ .topnav{
+  display: initial ; 
+}
+
+.cv{
+    margin-top: 2em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    margin-bottom: 2em;
+    text-align: justify;  
+    background-color: #f2f3f7;
+   border: none;
+   height: 45em;
+   clear: auto; 
+}
+
+
+ul{
+list-style-type:none;
+padding: 0;
+margin: 0;
+}
+ 
+}
+
