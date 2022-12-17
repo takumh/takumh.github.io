@@ -4,7 +4,7 @@
 
 header .topnav{
   width: 100%;
-  background-color: rgba(0,0,0,.2) ;
+  /*background-color: rgba(0,0,0,.2);*/
 }
 
 header .topnav ul{
@@ -19,12 +19,12 @@ header .topnav ul li{
 header .topnav ul li a{
   display: block;
   text-decoration: none;
-  text-transform: uppercase;
+  /*text-transform: lowercase;*/
   color: black ;
   font-size: 20px;
   font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
   letter-spacing: 2px;
-  font-weight: 600;
+  font-weight: 100;
   padding: 25px;
   transition: all ease 0.5s;
 }
@@ -69,6 +69,7 @@ hr { margin: 0.1em auto; }
 .cards-info{
   padding: 1em;
   padding-bottom: 1em;
+
 }
 
 .cards-info >h1{
@@ -77,6 +78,7 @@ hr { margin: 0.1em auto; }
   line-height: 120%;
   margin-bottom: 0.5em;
   color:#222222;
+  font-weight: 300;
 }
 
 .cards-info >p{
@@ -85,6 +87,7 @@ hr { margin: 0.1em auto; }
   text-align: justify;
   line-height: 130%;
   margin-top: 0.5em;
+  font-weight: 300;
 }
 
 #menu-bar{
@@ -93,11 +96,11 @@ hr { margin: 0.1em auto; }
 
 header label{
   padding: 10px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-size: 20px;
   font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
   letter-spacing: 2px;
-  font-weight: 600;
+  font-weight: 100;
   color:white;
   cursor: pointer;
   display: none;
@@ -172,12 +175,12 @@ header label{
     margin-left: 0em;
     display: block;
     text-decoration: none;
-    text-transform: uppercase;
+   /* text-transform: uppercase;*/
     color: white;
     font-size: 20px;
     font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
-    font-weight: 600;
+    font-weight: 100;
     padding: 8px;
     transition: all ease 0.5s;
   }
@@ -260,12 +263,12 @@ header .topnav ul li a{
   margin-left: 0em;
   display: block;
   text-decoration: none;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   color: white;
   font-size: 20px;
   font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
   letter-spacing: 1px;
-  font-weight: 600;
+  font-weight: 100;
   padding: 8px;
   transition: all ease 0.5s;
 }
