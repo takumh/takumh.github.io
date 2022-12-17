@@ -4,7 +4,7 @@
 
 header .topnav{
   width: 100%;
-  background-color: rgba(0,0,0,.2);
+  /*background-color: rgba(0,0,0,.2);*/
 }
 
 header .topnav ul{
@@ -19,18 +19,19 @@ header .topnav ul li{
 header .topnav ul li a{
   display: block;
   text-decoration: none;
-  text-transform: uppercase;
+  /*text-transform: lowercase;*/
   color: black;
   font-size: 20px;
   font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
   letter-spacing: 2px;
-  font-weight: 600;
+  font-weight: 100;
   padding: 25px;
   transition: all ease 0.5s;
 }
 
 header .topnav ul li a:hover{
   background-color: #211b4385;
+  color: aliceblue;
 }
 
 img{
@@ -52,8 +53,10 @@ img{
 .contents{
   margin-left: 30em;
   margin-right: 30em;
+  color:#222222;
   font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
   line-height: 1.5em;
+  font-weight: 300;
 }
 
 .contents h1,h2,h3{
@@ -70,11 +73,11 @@ img{
 
 header label{
   padding: 10px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-size: 20px;
   font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
   letter-spacing: 2px;
-  font-weight: 600;
+  font-weight: 100;
   color:white;
   cursor: pointer;
   display: none;
@@ -110,12 +113,12 @@ header label{
     margin-left: 0em;
     display: block;
     text-decoration: none;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     color: black;
     font-size: 20px;
     font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
-    font-weight: 600;
+    font-weight: 100;
     padding: 5px;
     transition: all ease 0.5s;
   }
@@ -147,12 +150,12 @@ header label{
     margin-left: 0em;
     display: block;
     text-decoration: none;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     color: white;
     font-size: 20px;
     font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
-    font-weight: 600;
+    font-weight: 100;
     padding: 8px;
     transition: all ease 0.5s;
   }
@@ -223,12 +226,12 @@ header label{
     margin-left: 0em;
     display: block;
     text-decoration: none;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     color: white;
     font-size: 20px;
     font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
-    font-weight: 600;
+    font-weight: 100;
     padding: 8px;
     transition: all ease 0.5s;
   }
