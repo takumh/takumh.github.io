@@ -1,28 +1,21 @@
 .body{
-  background-color: #f2f3f7;;
+  background-color: #f2f3f7;
 }
 
 .cv{
-  margin-top: 2em;
-  margin-left: 15em;
-  margin-right: 20em;
+  margin-top: 1em;
+  margin-left: 10em;
+  margin-right: 10em;
   margin-bottom: 3em;
   text-align: justify;  
-  border-style: solid;
-  border-width: medium;
-  border-color: grey;
-  overflow-y: scroll;
- padding: 1em 1em 3em ;
- background-color: rgb(240, 240, 240);
-
- height: 45em;
-
-
+  padding: 1em 1em 3em ;
+  font-weight: 200;
+  height: 45em;
 }
 
 header .topnav{
   width: 100%;
-  background-color: rgba(0,0,0,.2) ;
+  /*background-color: rgba(0,0,0,.2);*/
 }
 
 header .topnav ul{
@@ -37,18 +30,19 @@ header .topnav ul li{
 header .topnav ul li a{
   display: block;
   text-decoration: none;
-  text-transform: uppercase;
+  /*text-transform: lowercase;*/
   color: black ;
   font-size: 20px;
   font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
   letter-spacing: 2px;
-  font-weight: 600;
+  font-weight: 100;
   padding: 25px;
   transition: all ease 0.5s;
 }
 
 header .topnav ul li a:hover{
   background-color: #211b4385;
+  color: aliceblue;
 }
 h2,h3,h4,h5,h6{
   
@@ -64,11 +58,11 @@ hr { margin: 0.1em auto; }
 
 header label{
   padding: 10px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-size: 20px;
   font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
   letter-spacing: 2px;
-  font-weight: 600;
+  font-weight: 100;
   color:white;
   cursor: pointer;
   display: none;
@@ -95,6 +89,7 @@ header label{
   margin-right: 2em;
   margin-bottom: 2em;
   }
+
   h1,h2,h3,h4,h5,h6{
     margin-bottom: 0px;
     padding-bottom: 0px;
@@ -105,7 +100,6 @@ header label{
     margin-right: 4em;
     margin-bottom: 2em;
     text-align: justify;  
-    background-color: #f2f3f7;
    height: 60em;
   }
   
@@ -115,22 +109,19 @@ header label{
 @media only screen  and (max-width: 480px ){
   header .topnav ul li a:hover{
     background-color: #211b4385;
-  }
-
-  header .topnav ul li a:hover{
-    background-color: #211b4385;
+    color: aliceblue;
   }
   
   header .topnav ul li a{
     margin-left: 0em;
     display: block;
     text-decoration: none;
-    text-transform: uppercase;
+   /* text-transform: uppercase;*/
     color: white;
     font-size: 20px;
     font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
-    font-weight: 600;
+    font-weight: 100;
     padding: 8px;
     transition: all ease 0.5s;
   }
@@ -150,10 +141,6 @@ header label{
   
   header .topnav ul li{
     width: 100%;
-  }
-  
-  header .topnav ul li a:hover{
-    background-color: #211b4385;
   }
   
   header label{
@@ -196,18 +183,19 @@ header label{
 
 header .topnav ul li a:hover{
   background-color: #211b4385;
+  color: aliceblue
 }
 
 header .topnav ul li a{
   margin-left: 0em;
   display: block;
   text-decoration: none;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   color: white;
   font-size: 20px;
   font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
   letter-spacing: 1px;
-  font-weight: 600;
+  font-weight: 100;
   padding: 8px;
   transition: all ease 0.5s;
 }
@@ -231,6 +219,7 @@ header .topnav ul li{
 
 header .topnav ul li a:hover{
   background-color: #211b4385;
+  color:aliceblue
 }
 
 header label{
@@ -251,7 +240,6 @@ header label{
     margin-right: 1.5em;
     margin-bottom: 2em;
     text-align: justify;  
-    background-color: #f2f3f7;
    border: none;
    height: 45em;
    clear: auto; 
