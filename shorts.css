@@ -43,8 +43,8 @@ hr { margin: 0.1em auto; }
 
 header label{
   padding: 10px;
-  /*text-transform: uppercase;
-  font-size: 20px;*/
+  /*text-transform: uppercase;*/
+  font-size: 20px;
   font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
   letter-spacing: 2px;
   font-weight: 100;
@@ -53,32 +53,32 @@ header label{
   display: none;
 }
 
-.write{
-  margin-top: 1em;
+.piece{
   margin-left: 10em;
   margin-right: 10em;
   margin-bottom: 3em;
   text-align: justify;  
   padding: 1em 1em 3em ;
   height: 45em;
-}
-
-.write h3{
-  font-size: 30px;
-  font-weight: 200;
-}
-
-.write ul{
-  list-style-type: none;
-  font-size: 25px;
-  font-weight: 200;
-}
-
-a, a:visited{
-  text-decoration: underline;
-  color: inherit;
 
 }
+.piece p{
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.5em;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 16em;
+  height: 16em;
+  background-position: center;
+  border-radius: 100%;
+  padding: 1em 1em;
+}
+
 
 @media only screen  and (max-width: 1024px){
   *{
@@ -96,29 +96,10 @@ a, a:visited{
     float: right;
   }
 
-  .write h3{
-    font-size: 2.5em;
-  }
-
-  .write ul{
-    margin-top: 1em;
-  }
-
-  .write ul a{
-    font-size: 2em;
-  }
-
 }
 
 @media only screen  and (max-width: 600px ){
  
-  .write h3{
-    font-size: 2em;
-  }
-
-  .write ul a{
-    font-size: 1.5em;
-  }
 
 }
 
@@ -171,25 +152,13 @@ a, a:visited{
     display: initial ; 
   }
 
-  .write{
-    margin-left: 5em;
-    margin-right: 5em;
-    line-height: 1.5em;
-  }
-
-  .write h3{
-    font-size: 2em;
-  }
-
-  .write ul{
-    margin-top: 1em;
-  }
-
-  .write ul a{
-    font-size: 1.5em;
+  .piece{
+    margin-left: 3.5em;
+    margin-right: 3.5em;
   }
 
 }
+
 
 @media only screen  and (max-width: 375px ){
   *{
@@ -200,6 +169,7 @@ a, a:visited{
 
 header .topnav ul li a:hover{
   background-color: #211b4385;
+  color: aliceblue;
 }
 
 header .topnav ul li a{
@@ -233,10 +203,6 @@ header .topnav ul li{
   width: 100%;
 }
 
-header .topnav ul li a:hover{
-  background-color: #211b4385;
-}
-
 header label{
   text-align: center;
   display: block;
@@ -247,37 +213,24 @@ header label{
 
 #menu-bar:checked ~ .topnav{
   display: initial ; 
-} 
-
-.write{
-  margin-left: 3em;
-  margin-right: 3em;
 }
 
-.write h3{
-  font-size: 2em;
-}
+ ul{
+  list-style-type:none;
+  padding: 0;
+  margin: 0;
+ }
 
-.write ul a{
-  font-size: 1.5em;
-  line-height: 2em;
+ .piece{
+  margin-left: 3.5em;
+  margin-right: 3.5em;
+  padding: none;
+ }
 }
-}
-
-
 
 @media  screen and (max-width: 300px) {
-  
-  .write h3{
-    font-size: 1.5em;
+  .container{
+    display: grid;
+    grid-template-columns: auto;
   }
-
-  .write ul{
-    margin-top: 0.5em;
-  }
-
-  .write ul a{
-    font-size: 1em;
-  }
-
 }
