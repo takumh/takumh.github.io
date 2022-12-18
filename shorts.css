@@ -1,5 +1,6 @@
 .body{
   background-color: #f2f3f7;
+  margin-bottom: 2em;
 }
 
 header .topnav{
@@ -54,8 +55,8 @@ header label{
 }
 
 .piece{
-  margin-left: 10em;
-  margin-right: 10em;
+  margin-left: 15em;
+  margin-right: 15em;
   margin-bottom: 3em;
   text-align: justify;  
   padding: 1em 1em 3em ;
@@ -68,12 +69,12 @@ header label{
   line-height: 1.5em;
 }
 
-img{
-  display: block;
+.pic{
+  /*display: block;*/
   margin-left: auto;
   margin-right: auto;
-  width: 16em;
-  height: 16em;
+ /* width: 16em;
+  height: 16em; */
   background-position: center;
   border-radius: 100%;
   padding: 1em 1em;
