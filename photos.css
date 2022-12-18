@@ -109,28 +109,7 @@ header label{
 }
 
 @media only screen  and (max-width: 830px){
-  header .topnav ul{
-    
-    margin-left: 0em;
-  }
-
-  header .topnav ul li a:hover{
-    background-color: #211b4385;
-  }
-
-  header .topnav ul li a{
-    margin-left: 0em;
-    display: block;
-    text-decoration: none;
-    /*text-transform: uppercase;*/
-    color: black;
-    font-size: 20px;
-    font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
-    letter-spacing: 1px;
-    font-weight: 100;
-    padding: 5px;
-    transition: all ease 0.5s;
-  }
+  
   
 }
 

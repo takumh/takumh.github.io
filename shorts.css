@@ -64,6 +64,7 @@ header label{
 
 }
 .piece p{
+  font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-weight: 300;
   font-size: 15px;
   line-height: 1.5em;
