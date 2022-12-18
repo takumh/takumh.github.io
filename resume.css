@@ -45,7 +45,6 @@ header .topnav ul li a:hover{
   color: aliceblue;
 }
 h2,h3,h4,h5,h6{
-  
   margin-bottom: 0.5px;
   padding-bottom: 0px;
 }
@@ -75,21 +74,6 @@ header label{
     font-size: small;
   }
 
-  .float-left{
-    float: left;
-  }
-
-  .float-right{
-    float: right;
-  }
-
-.top {
-  margin-top: 1em;
-  margin-left: 2em;
-  margin-right: 2em;
-  margin-bottom: 2em;
-  }
-
   h1,h2,h3,h4,h5,h6{
     margin-bottom: 0px;
     padding-bottom: 0px;
@@ -103,7 +87,6 @@ header label{
    height: 60em;
   }
   
-
 }
 
 @media only screen  and (max-width: 480px ){
@@ -168,9 +151,6 @@ header label{
     margin:0;
     padding: 0;
     font-size: small;
-  }
-  .float-right{
-    float: none;
   }
 
   h1,h2,h3,h4,h5,h6,p{
