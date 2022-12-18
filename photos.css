@@ -1,28 +1,15 @@
-.body{
-  background-color: #f2f3f7;;
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
 }
 
-.cv{
-  margin-top: 2em;
-  margin-left: 15em;
-  margin-right: 20em;
-  margin-bottom: 3em;
-  text-align: justify;  
-  border-style: solid;
-  border-width: medium;
-  border-color: grey;
-  overflow-y: scroll;
- padding: 1em 1em 3em ;
- background-color: rgb(240, 240, 240);
-
- height: 45em;
-
-
+.body{
+  margin-bottom: 2em;
 }
 
 header .topnav{
   width: 100%;
-  background-color: rgba(0,0,0,.2) ;
 }
 
 header .topnav ul{
@@ -37,26 +24,59 @@ header .topnav ul li{
 header .topnav ul li a{
   display: block;
   text-decoration: none;
-  text-transform: uppercase;
-  color: black ;
+  color: black;
   font-size: 20px;
   font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
   letter-spacing: 2px;
-  font-weight: 600;
+  font-weight: 100;
   padding: 25px;
   transition: all ease 0.5s;
 }
 
 header .topnav ul li a:hover{
   background-color: #211b4385;
-}
-h2,h3,h4,h5,h6{
-  
-  margin-bottom: 0.5px;
-  padding-bottom: 0px;
+  color: aliceblue;
 }
 
-hr { margin: 0.1em auto; }
+.gallery{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.gallery .box{
+  margin-top: 1.5em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.gallery .box .frame{
+  display: flex;
+  flex-direction: column;
+  width: 32.5%;
+}
+
+.gallery .box .frame img{
+  width: 100%;
+  padding-bottom: 15px;
+  border-radius: 5px;
+}
+
+
+a, a:visited{
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 1.2em;
+  letter-spacing: 3px;
+}
+
+
+
 
 #menu-bar{
   display: none;
@@ -64,51 +84,57 @@ hr { margin: 0.1em auto; }
 
 header label{
   padding: 10px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-size: 20px;
   font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
   letter-spacing: 2px;
-  font-weight: 600;
+  font-weight: 100;
   color:white;
   cursor: pointer;
   display: none;
 }
 
-@media only screen  and (max-width: 1024px){
-  *{
-    margin:0;
-    padding: 0;
-    font-size: small;
-  }
+@media only screen  and (max-width: 1100px){
 
-  .float-left{
-    float: left;
-  }
 
-  .float-right{
-    float: right;
-  }
-
-.top {
-  margin-top: 1em;
-  margin-left: 2em;
-  margin-right: 2em;
-  margin-bottom: 2em;
-  }
-  h1,h2,h3,h4,h5,h6{
-    margin-bottom: 0px;
-    padding-bottom: 0px;
+ 
 }
-  .cv{
-    margin-top: 2em;
-    margin-left: 4em;
-    margin-right: 4em;
-    margin-bottom: 2em;
-    text-align: justify;  
-    background-color: #f2f3f7;
-   height: 60em;
+
+@media only screen and (max-width: 1280px){
+  
+}
+
+@media screen and (max-width: 930px) {
+
+}
+
+@media only screen  and (max-width: 830px){
+  header .topnav ul{
+    
+    margin-left: 0em;
+  }
+
+  header .topnav ul li a:hover{
+    background-color: #211b4385;
+  }
+
+  header .topnav ul li a{
+    margin-left: 0em;
+    display: block;
+    text-decoration: none;
+    /*text-transform: uppercase;*/
+    color: black;
+    font-size: 20px;
+    font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 100;
+    padding: 5px;
+    transition: all ease 0.5s;
   }
   
+}
+
+@media screen and (max-width: 550px) {
 
 }
 
@@ -116,6 +142,7 @@ header label{
   header .topnav ul li a:hover{
     background-color: #211b4385;
   }
+  
 
   header .topnav ul li a:hover{
     background-color: #211b4385;
@@ -125,12 +152,12 @@ header label{
     margin-left: 0em;
     display: block;
     text-decoration: none;
-    text-transform: uppercase;
+   /* text-transform: uppercase;*/
     color: white;
     font-size: 20px;
     font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
-    font-weight: 600;
+    font-weight: 100;
     padding: 8px;
     transition: all ease 0.5s;
   }
@@ -167,14 +194,9 @@ header label{
   #menu-bar:checked ~ .topnav{
     display: initial ; 
   }
-
-  .cv{
-    border: none;
-    margin-left:1em;
-    margin-right: 1em;
-  }
-  
 }
+
+  
 
 @media only screen  and (max-width: 375px ){
   *{
@@ -182,17 +204,6 @@ header label{
     padding: 0;
     font-size: small;
   }
-  .float-right{
-    float: none;
-  }
- br{
-   display: none;
- }
-
-  h1,h2,h3,h4,h5,h6,p{
-    margin-bottom: 0.5em;
-    padding-bottom: 0px;
-}
 
 header .topnav ul li a:hover{
   background-color: #211b4385;
@@ -202,12 +213,12 @@ header .topnav ul li a{
   margin-left: 0em;
   display: block;
   text-decoration: none;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   color: white;
   font-size: 20px;
   font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
   letter-spacing: 1px;
-  font-weight: 600;
+  font-weight: 100;
   padding: 8px;
   transition: all ease 0.5s;
 }
@@ -244,25 +255,10 @@ header label{
 #menu-bar:checked ~ .topnav{
   display: initial ; 
 }
-
-.cv{
-    margin-top: 2em;
-    margin-left: 1.5em;
-    margin-right: 1.5em;
-    margin-bottom: 2em;
-    text-align: justify;  
-    background-color: #f2f3f7;
-   border: none;
-   height: 45em;
-   clear: auto; 
-}
-
-
-ul{
-list-style-type:none;
-padding: 0;
-margin: 0;
-}
  
 }
 
+
+@media screen and (max-width: 300px) {
+ 
+}
