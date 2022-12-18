@@ -68,6 +68,10 @@ header label{
   font-weight: 200;
 }
 
+ul{
+  list-style-type: none;
+}
+
 .write ul a{
   list-style-type: none;
   font-size: 25px;
@@ -186,7 +190,12 @@ a, a:visited{
   }
 
   .write ul a{
+    list-style-type: none;
     font-size: 1.5em;
+  }
+
+  a, a:visited{
+    text-decoration: none;
   }
 
 }
@@ -259,8 +268,13 @@ header label{
 }
 
 .write ul a{
+  list-style-type:none ;
   font-size: 1.5em;
   line-height: 2em;
+}
+
+a, a:visited{
+  text-decoration: none;
 }
 }
 
