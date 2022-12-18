@@ -68,10 +68,10 @@ header label{
   font-weight: 200;
 }
 
-.write ul{
+.write ul a{
   list-style-type: none;
   font-size: 25px;
-  font-weight: 200;
+  font-weight: normal;
 }
 
 a, a:visited{
