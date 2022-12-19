@@ -118,6 +118,7 @@ header label{
 }
 
 @media only screen  and (max-width: 480px ){
+
   header .topnav ul li a:hover{
     background-color: #211b4385;
   }
@@ -172,6 +173,20 @@ header label{
   
   #menu-bar:checked ~ .topnav{
     display: initial ; 
+  }
+
+  .gallery .box{
+    margin-top: 1.5em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .gallery .box .frame{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
   }
 }
 
@@ -232,9 +247,22 @@ header label{
 }
 
 #menu-bar:checked ~ .topnav{
-  display: initial ; 
+  display: initial ;
 }
- 
+
+.gallery .box{
+  margin-top: 1.5em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.gallery .box .frame{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
 }
 
 
