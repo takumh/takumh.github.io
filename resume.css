@@ -6,11 +6,39 @@
   margin-top: 1em;
   margin-left: 10em;
   margin-right: 10em;
-  margin-bottom: 3em;
+  margin-bottom: 0.5em;
   text-align: justify;  
   padding: 1em 1em 3em ;
   font-weight: 200;
   height: 45em;
+}
+
+.cv .post{
+  display: grid;
+  align-items: center;
+  grid-template-columns: 0.5fr 1fr;
+  column-gap: 5px;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10em;
+  height: 10em;
+  object-fit: cover;
+  background-position: top;
+  /*border-radius: 100%;*/
+  padding: 1em 0.5em;
+}
+
+.pic{
+overflow: hidden;
+}
+
+.pic img{
+  width: 80%;
+  display: block;
 }
 
 header .topnav{
@@ -68,11 +96,6 @@ header label{
 }
 
 @media only screen  and (max-width: 1024px){
-  *{
-    margin:0;
-    padding: 0;
-    font-size: small;
-  }
 
   h1,h2,h3,h4,h5,h6{
     margin-bottom: 0px;
@@ -86,7 +109,35 @@ header label{
     text-align: justify;  
    height: 60em;
   }
+
+ img{
+  padding: 1em 1em;
+   }
+
+ .pic img{
+    width: 80%;
+    height: auto;
+  }
+
   
+}
+
+@media screen and (max-width: 930px) {
+  img{
+    padding: 0em 1em;
+     }
+}
+
+@media only screen  and (max-width: 830px ){
+ img{
+padding: 0em 0em;
+ }
+}
+
+@media screen and (max-width: 550px){
+  img{
+    padding: 0em 0em;
+     }
 }
 
 @media only screen  and (max-width: 480px ){
@@ -143,7 +194,19 @@ header label{
     margin-left:1em;
     margin-right: 1em;
   }
+
   
+.cv .pic{
+  display: none;
+}
+
+.cv .post{
+  display: block;
+}
+
+  img{
+   display: none;
+  }
 }
 
 @media only screen  and (max-width: 375px ){
@@ -220,6 +283,19 @@ header label{
    border: none;
    height: 45em;
    clear: auto; 
+}
+
+.cv .post{
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+img{
+  display: none;
+}
+
+.cv .pic{
+  display: none;
 }
 
 

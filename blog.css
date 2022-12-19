@@ -66,7 +66,6 @@ header label{
 
 .write h3{
   font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
-  font-size: 2em;
   font-weight: 200;
 }
 
@@ -82,9 +81,7 @@ header label{
 .write ul a{
   font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
   list-style-type: none;
-  font-size: 1.5em;
   font-weight: 200;
- 
 }
 
 a, a:visited{
