@@ -175,19 +175,6 @@ header label{
     display: initial ; 
   }
 
-  .gallery .box{
-    margin-top: 1.5em;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  
-  .gallery .box .frame{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
 }
 
   
@@ -250,19 +237,6 @@ header label{
   display: initial ;
 }
 
-.gallery .box{
-  margin-top: 1.5em;
-  margin-left: 0.5em;
-  margin-right: 0.5em;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.gallery .box .frame{
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
 }
 
 
