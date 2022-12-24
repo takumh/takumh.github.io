@@ -61,12 +61,13 @@ header label{
   text-align: justify;  
   padding: 1em 1em 3em ;
   height: 45em;
- 
+ align-items: center;
 }
 
 .write h3{
   font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-weight: 200;
+  text-align: center;
 }
 
 .write ul, li{
@@ -75,7 +76,7 @@ header label{
   overflow: hidden;
   text-overflow: ellipsis;
   padding: 0;
- 
+  text-align: center;
 }
 
 .write ul a{
