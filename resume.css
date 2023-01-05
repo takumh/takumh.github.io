@@ -109,6 +109,24 @@ a:hover {
   color: blue;
 }
 
+@media only screen and (min-width: 1440px){
+  .cv{
+    margin-left: 20em;
+    margin-right: 20em;
+    text-align: justify;  
+   height: 60em;
+  }
+
+ img{
+  padding: 1em 1em;
+   }
+
+ .pic img{
+    width: 50%;
+    height: auto;
+  }
+
+}
 
 
 @media only screen and (max-width: 1280px){
