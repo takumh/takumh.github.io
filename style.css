@@ -146,6 +146,9 @@ header label{
 }
 
 @media only screen  and (max-width: 480px ){
+  header .topnav ul{
+    text-align: left;
+  }
 
   .contents{
     margin-left: 5em;
@@ -164,7 +167,7 @@ header label{
     text-decoration: none;
    /*text-transform: uppercase;*/
     color: black;
-    font-size: 20px;
+    font-size: 18px;
     font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
     font-weight: 100;
@@ -255,6 +258,10 @@ header label{
   
 
 @media only screen  and (max-width: 375px ){
+  header .topnav ul{
+    text-align: center;
+  } 
+
   .contents{
     margin-left: 2em;
     margin-right: 2em;
@@ -266,7 +273,7 @@ header label{
     text-decoration: none;
     /*text-transform: uppercase;*/
     color: black;
-    font-size: 15px;
+    font-size: 18px;
     font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
     font-weight: 100;
@@ -357,6 +364,10 @@ header label{
 
 
 @media screen and (max-width: 300px) {
+  header .topnav ul{
+    text-align: center;
+  } 
+
   .contents{
     margin-left: 0.5em;
     margin-right: 0em;
