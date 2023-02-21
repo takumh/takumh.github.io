@@ -146,12 +146,45 @@ header label{
 }
 
 @media only screen  and (max-width: 480px ){
-  header .topnav ul li a:hover{
-    background-color: #211b4385;
-  }
-  
 
-  header .topnav ul li a:hover{
+  .contents{
+    margin-left: 5em;
+    margin-right: 5em;
+    font-size: small;
+  }
+
+  .contents  .contacts p{
+    margin-left: 3em;
+    margin-right: 3em;
+  } 
+
+  header .topnav ul li a{
+    margin-left: 0em;
+    display: block;
+    text-decoration: none;
+   /*text-transform: uppercase;*/
+    color: black;
+    font-size: 20px;
+    font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 100;
+    padding: 8px;
+    transition: all ease 0.5s;
+  } 
+
+  header label{
+    padding: 10px;
+    /*text-transform: uppercase;*/
+    font-size: 15px;
+    font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 100;
+    color:white;
+    cursor: pointer;
+    display: none;
+  }
+
+  /*1 header .topnav ul li a:hover{
     background-color: #211b4385;
   }
   
@@ -160,18 +193,18 @@ header label{
     display: block;
     text-decoration: none;
    /* text-transform: uppercase;*/
-    color: white;
+   /* 2 color: white;
     font-size: 20px;
     font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
     font-weight: 100;
     padding: 8px;
     transition: all ease 0.5s;
-  }
+  } 
   
   header .topnav{
     position: absolute;
-    /*top: 100%;*/ left: 0; right: 0;
+    /*top: 100%;*/ /* 3 left: 0; right: 0;
     background-color: #41464b;
     border-top: 1px solid grey;
     display: none;
@@ -184,23 +217,23 @@ header label{
   
   header .topnav ul li{
     width: 100%;
-  }
-  
-  header .topnav ul li a:hover{
-    background-color: #211b4385;
-  }
+  } 
+
   
   header label{
     text-align: center;
-    display: block;
+    display: none;
+    cursor: pointer;
+    display: block; 
    /* display: initial;*/
-    background-color: #41464b; 
+    /*4 background-color: #41464b; 
     margin-left: 0em;
   }
   
   #menu-bar:checked ~ .topnav{
     display: initial ; 
   }
+
 
   .contents{
     margin-left: 5em;
@@ -215,14 +248,35 @@ header label{
   .contents  .contacts p{
     margin-left: 3em;
     margin-right: 3em;
-  }
+  } */
 
 }
 
   
 
 @media only screen  and (max-width: 375px ){
-   img{
+  .contents{
+    margin-left: 2em;
+    margin-right: 2em;
+   }
+
+   header .topnav ul li a{
+    margin-left: 0em;
+    display: block;
+    text-decoration: none;
+    /*text-transform: uppercase;*/
+    color: black;
+    font-size: 15px;
+    font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 100;
+    padding: 8px;
+    transition: all ease 0.5s;
+  }
+  
+
+   
+  /*1 img{
     padding: 1em 1em;
    }
 
@@ -255,7 +309,7 @@ header .topnav ul li a{
   display: block;
   text-decoration: none;
   /*text-transform: uppercase;*/
-  color: white;
+  /*2 color: white;
   font-size: 20px;
   font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
   letter-spacing: 1px;
@@ -266,7 +320,7 @@ header .topnav ul li a{
 
 header .topnav{
   position: absolute;
-  /*top: 100%;*/ left: 0; right: 0;
+  /*top: 100%;*/ /*3 left: 0; right: 0;
   background-color: #41464b;
   border-top: 1px solid grey;
   display: none;
@@ -281,15 +335,11 @@ header .topnav ul li{
   width: 100%;
 }
 
-header .topnav ul li a:hover{
-  background-color: #211b4385;
-}
-
 header label{
   text-align: center;
   display: block;
  /* display: initial;*/
-  background-color: #41464b; 
+  /*4 background-color: #41464b; 
   margin-left: 0em;
 }
 
@@ -301,7 +351,7 @@ header label{
   list-style-type:none;
   padding: 0;
   margin: 0;
- }
+ } 5*/
  
 }
 
