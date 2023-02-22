@@ -12,13 +12,16 @@
   font-weight: 200;
   height: 45em;
 }
-
 .cv .post{
+  display: block;
+}
+
+/*.cv .post{
   display: grid;
   align-items: center;
   grid-template-columns: 0.5fr 1fr;
   column-gap: 5px;
-}
+}*/
 
 img{
   display: block;
@@ -107,6 +110,14 @@ a, a:visited {
 
 a:hover {
   color: blue;
+}
+
+.cv .pic{
+  display: none;
+}
+
+img{
+  display: none;
 }
 
 @media only screen and (min-width: 1440px){
