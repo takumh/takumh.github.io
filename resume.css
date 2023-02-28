@@ -104,12 +104,12 @@ header label{
 }
 
 a, a:visited {
-  color: inherit;
-  text-decoration: none;
+  color: rgb(45, 157, 255);
+  /*text-decoration: none;*/
 }
 
 a:hover {
-  color: blue;
+  color: rgb(195, 0, 255);
 }
 
 .cv .pic{
@@ -118,6 +118,12 @@ a:hover {
 
 img{
   display: none;
+}
+
+dd {
+  /*display: list-item;
+  /*list-style-type: "";*/
+  padding-inline-start: 1ch;
 }
 
 @media only screen and (min-width: 1440px){
