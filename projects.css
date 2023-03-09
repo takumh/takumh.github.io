@@ -19,6 +19,12 @@
     grid-template-columns: 0.5fr 1fr;
     column-gap: 5px;
   }
+
+  .cv .contacts{
+    margin-top: 3em;
+    text-align: center; 
+    color: gray;
+  }
   
   img{
     display: block;
