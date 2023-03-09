@@ -1,0 +1,493 @@
+.body{
+  background-color: #f2f3f7;
+}
+
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
+}
+
+br {
+  line-height: 10%;
+}
+
+.cv{
+  margin-top: 1em;
+  margin-left: 10em;
+  margin-right: 10em;
+  margin-bottom: 0.5em;
+  text-align: justify;  
+  padding: 1em 1em 3em ;
+  font-weight: 200;
+  height: 45em;
+}
+.cv .post{
+  display: block;
+}
+
+/*.cv .post{
+  display: grid;
+  align-items: center;
+  grid-template-columns: 0.5fr 1fr;
+  column-gap: 5px;
+}*/
+
+.cv .contacts{
+  margin-top: 3em;
+  text-align: center; 
+  color: gray;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10em;
+  height: 10em;
+  object-fit: cover;
+  background-position: top;
+  /*border-radius: 100%;*/
+  padding: 1em 0.5em;
+}
+
+.pic{
+overflow: hidden;
+}
+
+.pic img{
+  width: 50%;
+  height: auto;
+  display: block;
+}
+
+header .topnav{
+  width: 100%;
+  /*background-color: rgba(0,0,0,.2);*/
+}
+
+header .topnav ul{
+  text-align: center;
+}
+
+header .topnav ul li{
+  list-style: none;
+  display: inline-block;
+}
+
+header .topnav ul li a{
+  display: block;
+  text-decoration: none;
+  /*text-transform: lowercase;*/
+  color: black ;
+  font-size: 20px;
+  font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  font-weight: 100;
+  padding: 25px;
+  transition: all ease 0.5s;
+}
+
+header .topnav ul li a:hover{
+  background-color: #211b4385;
+  color: aliceblue;
+}
+h2,h3,h4,h5,h6{
+  margin-bottom: 0.5px;
+  padding-bottom: 0px;
+}
+
+hr { margin: 0.1em auto; }
+
+#menu-bar{
+  display: none;
+}
+
+header label{
+  padding: 10px;
+  /*text-transform: uppercase;*/
+  font-size: 20px;
+  font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  font-weight: 100;
+  color:white;
+  cursor: pointer;
+  display: none;
+}
+
+.cv ul li{
+  list-style-type: none;
+}
+
+a, a:visited {
+  color: rgb(45, 157, 255);
+  /*text-decoration: none;*/
+}
+
+a:hover {
+  color: rgb(195, 0, 255);
+}
+
+.cv .pic{
+  display: none;
+}
+
+img{
+  display: none;
+}
+
+dd {
+  /*display: list-item;
+  /*list-style-type: "";*/
+  padding-inline-start: 1ch;
+}
+
+@media only screen and (min-width: 1440px){
+  .cv{
+    margin-left: 20em;
+    margin-right: 20em;
+    text-align: justify;  
+   height: 60em;
+  }
+
+ img{
+  padding: 1em 1em;
+   }
+
+ .pic img{
+    width: 50%;
+    height: auto;
+  }
+
+}
+
+
+@media only screen and (max-width: 1280px){
+  img{
+    padding: 0.3em 1em;
+     }
+
+  .pic img{
+    max-width: 50%;
+    height: auto;
+  }
+}
+
+@media only screen  and (max-width: 1024px){
+
+  h1,h2,h3,h4,h5,h6{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+  .cv{
+    margin-top: 2em;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: 2em;
+    text-align: justify;  
+   height: 60em;
+  }
+
+ img{
+  padding: 1em 1em;
+   }
+
+ .pic img{
+    width: 80%;
+    height: auto;
+  }
+
+
+  
+}
+
+@media screen and (max-width: 930px) {
+  img{
+    padding: 0em 1em;
+     }
+}
+
+@media only screen  and (max-width: 830px ){
+ img{
+padding: 0em 0em;
+ }
+}
+
+@media screen and (max-width: 550px){
+  img{
+    padding: 0em 0em;
+     }
+}
+
+@media only screen  and (max-width: 480px ){
+
+  header .topnav ul{
+    text-align: left;
+  }
+
+  header .topnav ul li a{
+    margin-top: 1em;
+    margin-left: 0em;
+    display: block;
+    text-decoration: none;
+   /*text-transform: uppercase;*/
+    color: black;
+    font-size: 20px;
+    font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 100;
+    padding: 8px;
+    transition: all ease 0.5s;
+  }  
+
+  header label{
+    padding: 10px;
+    /*text-transform: uppercase;*/
+    font-size: 15px;
+    font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 100;
+    color:white;
+    cursor: pointer;
+    display: none;
+  }
+
+  .cv{
+    border: none;
+    margin-top: 0em;
+    margin-left:1em;
+    margin-right: 1em;
+  }
+
+  .cv .pic{
+    display: none;
+  }
+  
+  .cv .post{
+    display: block;
+  }
+  
+    img{
+     display: none;
+    }
+
+  /* 1 header .topnav ul li a:hover{
+    background-color: #211b4385;
+    color: aliceblue;
+  }
+  
+  header .topnav ul li a{
+    margin-left: 0em;
+    display: block;
+    text-decoration: none;
+   /* text-transform: uppercase;*/
+   /*2  color: white;
+    font-size: 20px;
+    font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 100;
+    padding: 8px;
+    transition: all ease 0.5s;
+  }
+  
+  header .topnav{
+    position: absolute;
+    /*top: 100%;*/ /* 3 left: 0; right: 0;
+    background-color: #41464b;
+    border-top: 1px solid grey;
+    display: none;
+  }
+  
+  header .topnav ul{
+    margin-left: 0em;
+    text-align: center;
+  }
+  
+  header .topnav ul li{
+    width: 100%;
+  }
+  
+  header label{
+    text-align: center;
+    display: block;
+   /* display: initial;*/
+    /* 4 background-color: #41464b; 
+    margin-left: 0em;
+  }
+  
+  #menu-bar:checked ~ .topnav{
+    display: initial ; 
+  }
+
+  .cv{
+    border: none;
+    margin-left:1em;
+    margin-right: 1em;
+  }
+
+  
+.cv .pic{
+  display: none;
+}
+
+.cv .post{
+  display: block;
+}
+
+  img{
+   display: none;
+  } 5*/
+}
+
+@media only screen  and (max-width: 375px ){
+
+  header .topnav ul{
+    text-align: center;
+  } 
+
+  header .topnav ul li a{
+    margin-left: 0em;
+    display: block;
+    text-decoration: none;
+    /*text-transform: uppercase;*/
+    color: black;
+    font-size: 20px;
+    font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 100;
+    padding: 8px;
+    transition: all ease 0.5s;
+  }
+
+  .cv{
+    margin-top: 2em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    margin-bottom: 2em;
+    text-align: justify;  
+   border: none;
+   height: 45em;
+   clear: auto; 
+  }
+
+  .cv .post{
+    display: block;
+    margin-bottom: 0.5em;
+  }
+
+  img{
+    display: none;
+  }
+
+  .cv .pic{
+    display: none;
+  }
+
+
+  ul{
+  list-style-type:none;
+  padding: 0;
+  margin: 0;
+  } 
+
+
+
+  /*1 *{
+    margin:0;
+    padding: 0;
+    font-size: small;
+  }
+
+  h1,h2,h3,h4,h5,h6,p{
+    margin-bottom: 0.5em;
+    padding-bottom: 0px;
+}
+
+header .topnav ul li a:hover{
+  background-color: #211b4385;
+  color: aliceblue
+}
+
+header .topnav ul li a{
+  margin-left: 0em;
+  display: block;
+  text-decoration: none;
+  /*text-transform: uppercase;*/
+  /*2 color: white;
+  font-size: 20px;
+  font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  font-weight: 100;
+  padding: 8px;
+  transition: all ease 0.5s;
+}
+
+header .topnav{
+  position: absolute;
+  /*top: 100%;*/ /*3 left: 0; right: 0;
+  background-color: #41464b;
+  border-top: 1px solid grey;
+  display: none;
+}
+
+header .topnav ul{
+  margin-left: 0em;
+  text-align: center;
+}
+
+header .topnav ul li{
+  width: 100%;
+}
+
+header .topnav ul li a:hover{
+  background-color: #211b4385;
+  color:aliceblue
+}
+
+header label{
+  text-align: center;
+  display: block;
+ /* display: initial;*/
+  /*4 background-color: #41464b; 
+  margin-left: 0em;
+}
+
+#menu-bar:checked ~ .topnav{
+  display: initial ; 
+}
+
+.cv{
+    margin-top: 2em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    margin-bottom: 2em;
+    text-align: justify;  
+   border: none;
+   height: 45em;
+   clear: auto; 
+}
+
+.cv .post{
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+img{
+  display: none;
+}
+
+.cv .pic{
+  display: none;
+}
+
+
+ul{
+list-style-type:none;
+padding: 0;
+margin: 0;
+} 5*/
+ 
+}
+
