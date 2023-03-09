@@ -34,6 +34,7 @@ header .topnav ul li a:hover{
   color: aliceblue;
 }
 
+
 img{
   display: block;
   margin-left: auto;
@@ -43,7 +44,7 @@ img{
   object-fit: cover;
   background-position: center;
   border-radius: 100%;
-  padding: 2em 2em;
+  padding: 0em 2em;
 }
 
 .image {
@@ -66,7 +67,7 @@ img{
 }
 
 .contents p{
-  text-align: justify;
+  text-align: center;
 }
 
 .contents  .contacts{
