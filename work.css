@@ -28,13 +28,6 @@ br {
   display: block;
 }
 
-/*.cv .post{
-  display: grid;
-  align-items: center;
-  grid-template-columns: 0.5fr 1fr;
-  column-gap: 5px;
-}*/
-
 .cv .contacts{
   margin-top: 3em;
   text-align: center; 
@@ -163,7 +156,6 @@ dd {
 
 }
 
-
 @media only screen and (max-width: 1280px){
   img{
     padding: 0.3em 1em;
@@ -198,9 +190,6 @@ dd {
     width: 80%;
     height: auto;
   }
-
-
-  
 }
 
 @media screen and (max-width: 930px) {
@@ -272,73 +261,6 @@ padding: 0em 0em;
     img{
      display: none;
     }
-
-  /* 1 header .topnav ul li a:hover{
-    background-color: #211b4385;
-    color: aliceblue;
-  }
-  
-  header .topnav ul li a{
-    margin-left: 0em;
-    display: block;
-    text-decoration: none;
-   /* text-transform: uppercase;*/
-   /*2  color: white;
-    font-size: 20px;
-    font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
-    letter-spacing: 1px;
-    font-weight: 100;
-    padding: 8px;
-    transition: all ease 0.5s;
-  }
-  
-  header .topnav{
-    position: absolute;
-    /*top: 100%;*/ /* 3 left: 0; right: 0;
-    background-color: #41464b;
-    border-top: 1px solid grey;
-    display: none;
-  }
-  
-  header .topnav ul{
-    margin-left: 0em;
-    text-align: center;
-  }
-  
-  header .topnav ul li{
-    width: 100%;
-  }
-  
-  header label{
-    text-align: center;
-    display: block;
-   /* display: initial;*/
-    /* 4 background-color: #41464b; 
-    margin-left: 0em;
-  }
-  
-  #menu-bar:checked ~ .topnav{
-    display: initial ; 
-  }
-
-  .cv{
-    border: none;
-    margin-left:1em;
-    margin-right: 1em;
-  }
-
-  
-.cv .pic{
-  display: none;
-}
-
-.cv .post{
-  display: block;
-}
-
-  img{
-   display: none;
-  } 5*/
 }
 
 @media only screen  and (max-width: 375px ){
@@ -391,103 +313,6 @@ padding: 0em 0em;
   padding: 0;
   margin: 0;
   } 
-
-
-
-  /*1 *{
-    margin:0;
-    padding: 0;
-    font-size: small;
-  }
-
-  h1,h2,h3,h4,h5,h6,p{
-    margin-bottom: 0.5em;
-    padding-bottom: 0px;
-}
-
-header .topnav ul li a:hover{
-  background-color: #211b4385;
-  color: aliceblue
-}
-
-header .topnav ul li a{
-  margin-left: 0em;
-  display: block;
-  text-decoration: none;
-  /*text-transform: uppercase;*/
-  /*2 color: white;
-  font-size: 20px;
-  font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
-  letter-spacing: 1px;
-  font-weight: 100;
-  padding: 8px;
-  transition: all ease 0.5s;
-}
-
-header .topnav{
-  position: absolute;
-  /*top: 100%;*/ /*3 left: 0; right: 0;
-  background-color: #41464b;
-  border-top: 1px solid grey;
-  display: none;
-}
-
-header .topnav ul{
-  margin-left: 0em;
-  text-align: center;
-}
-
-header .topnav ul li{
-  width: 100%;
-}
-
-header .topnav ul li a:hover{
-  background-color: #211b4385;
-  color:aliceblue
-}
-
-header label{
-  text-align: center;
-  display: block;
- /* display: initial;*/
-  /*4 background-color: #41464b; 
-  margin-left: 0em;
-}
-
-#menu-bar:checked ~ .topnav{
-  display: initial ; 
-}
-
-.cv{
-    margin-top: 2em;
-    margin-left: 1.5em;
-    margin-right: 1.5em;
-    margin-bottom: 2em;
-    text-align: justify;  
-   border: none;
-   height: 45em;
-   clear: auto; 
-}
-
-.cv .post{
-  display: block;
-  margin-bottom: 0.5em;
-}
-
-img{
-  display: none;
-}
-
-.cv .pic{
-  display: none;
-}
-
-
-ul{
-list-style-type:none;
-padding: 0;
-margin: 0;
-} 5*/
  
 }
 
