@@ -247,11 +247,11 @@ Remove or comment-out the code block below to see how the browser will fall-back
       text-decoration: none;
      /*text-transform: uppercase;*/
       color: black;
-      font-size: 20px;
+      font-size: 18px;
       font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
       letter-spacing: 1px;
       font-weight: 100;
-      padding: 8px;
+      padding: 30px;
       transition: all ease 0.5s;
     }  
   
@@ -280,11 +280,11 @@ Remove or comment-out the code block below to see how the browser will fall-back
     text-decoration: none;
     /*text-transform: uppercase;*/
     color: black;
-    font-size: 15px;
+    font-size: 18px;
     font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
     font-weight: 100;
-    padding: 8px;
+    padding: 20px;
     transition: all ease 0.5s;
   }
 
@@ -304,7 +304,7 @@ Remove or comment-out the code block below to see how the browser will fall-back
 @media only screen  and (max-width: 375px ){
 
     header .topnav ul{
-      text-align: left;
+      text-align: center;
     } 
   
     header .topnav ul li a{
@@ -313,11 +313,11 @@ Remove or comment-out the code block below to see how the browser will fall-back
       text-decoration: none;
       /*text-transform: uppercase;*/
       color: black;
-      font-size: 15px;
+      font-size: 13px;
       font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
       letter-spacing: 1px;
       font-weight: 100;
-      padding: 8px;
+      padding: 20px;
       transition: all ease 0.5s;
     }
 
@@ -349,7 +349,7 @@ Remove or comment-out the code block below to see how the browser will fall-back
     font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
     font-weight: 100;
-    padding: 6px;
+    padding: 20px;
     transition: all ease 0.5s;
   }
 

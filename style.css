@@ -1,5 +1,14 @@
 .body{
   margin-bottom: 2em;
+  background-color: #f2f3f7;
+}
+
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
 }
 
 header .topnav{
@@ -8,6 +17,7 @@ header .topnav{
 }
 
 header .topnav ul{
+  margin-top: 1em;
   text-align: center;
 }
 
@@ -50,9 +60,11 @@ img{
 .image {
   flex-basis: 40%;
   text-align: center;
+  overflow: hidden;
 }
 
 .contents{
+  text-align: justify;
   margin-left: 20em;
   margin-right: 20em;
   color:#222222;
@@ -148,13 +160,13 @@ header label{
 
 @media only screen  and (max-width: 480px ){
   header .topnav ul{
-    text-align: left;
+    text-align: center;
   }
 
   .contents{
     margin-left: 5em;
     margin-right: 5em;
-    font-size: small;
+    text-align: justify;
   }
 
   .contents  .contacts p{
@@ -172,7 +184,7 @@ header label{
     font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
     font-weight: 100;
-    padding: 8px;
+    padding: 20px;
     transition: all ease 0.5s;
   } 
 
@@ -266,19 +278,21 @@ header label{
   .contents{
     margin-left: 2em;
     margin-right: 2em;
-   }
+    font-size: 12px;
+  }
 
-   header .topnav ul li a{
+  header .topnav ul li a{
     margin-left: 0em;
+    margin-right: 0em;
     display: block;
     text-decoration: none;
     /*text-transform: uppercase;*/
     color: black;
-    font-size: 18px;
+    font-size: 12px;
     font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
     font-weight: 100;
-    padding: 8px;
+    padding: 7px;
     transition: all ease 0.5s;
   }
   
