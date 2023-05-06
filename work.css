@@ -213,7 +213,7 @@ padding: 0em 0em;
 @media only screen  and (max-width: 480px ){
 
   header .topnav ul{
-    text-align: center;
+    text-align: left;
   }
 
   header .topnav ul li a{
@@ -223,7 +223,7 @@ padding: 0em 0em;
     text-decoration: none;
    /*text-transform: uppercase;*/
     color: black;
-    font-size: 18px;
+    font-size: 20px;
     font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
     font-weight: 100;
@@ -275,7 +275,7 @@ padding: 0em 0em;
     text-decoration: none;
     /*text-transform: uppercase;*/
     color: black;
-    font-size: 12px;
+    font-size: 20px;
     font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
     font-weight: 100;
@@ -284,7 +284,7 @@ padding: 0em 0em;
   }
 
   .cv{
-    margin-top: 0.5em;
+    margin-top: 2em;
     margin-left: 1.5em;
     margin-right: 1.5em;
     margin-bottom: 2em;
@@ -292,7 +292,6 @@ padding: 0em 0em;
    border: none;
    height: 45em;
    clear: auto; 
-   font-size: 12px;
   }
 
   .cv .post{
