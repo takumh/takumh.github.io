@@ -1,6 +1,13 @@
-.body{
+body{
   margin-bottom: 2em;
+  /*background-image: url('photo/bike.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  filter: blur(5px)*/
+  background-color: #f2f3f7;
 }
+
 
 header .topnav{
   width: 100%;
@@ -34,13 +41,12 @@ header .topnav ul li a:hover{
   color: aliceblue;
 }
 
-
 img{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 16em;
-  height: 16em;
+  width: 10em;
+  height: 10em;
   object-fit: cover;
   background-position: center;
   border-radius: 100%;
@@ -73,7 +79,7 @@ img{
 .contents  .contacts{
   margin-top: 3em;
   text-align: center; 
-  color: gray;
+  /*color: gray;*/
 }
 
 .contents a, a:visited{
