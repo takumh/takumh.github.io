@@ -26,7 +26,7 @@
         position: relative;
         padding: 0;
         margin: 0;
-        text-align: left;
+        text-align: center;
         }
 
         .social-icon li {
@@ -57,6 +57,129 @@
         color: #ffffff;
         transform: scale(1.1);
         top: -5px;
+        }
+
+        .time ul {
+        list-style: none;
+        margin: 0 !important;
+        }
+
+        .time a {
+            text-decoration: none !important;
+            display: inline-block;
+        }
+
+        .time img {
+            max-width: 100%;
+        }
+
+        .time button:focus {
+            outline: none;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: inherit;
+            margin: 0;
+        }
+
+       .time p {
+            font-size: 14px;
+            line-height: 26px;
+            margin: 0;
+        }
+
+        .time .container {
+            width: 100%;
+            max-width: 1140px;
+            /*padding: 0 15px;*/
+            box-sizing: border-box;
+            margin: 0 auto;
+        }
+        .time .timelines h2 {
+            text-align: center;
+            color: black;
+            /*font-weight: 600;
+            font-size: 32px;*/ 
+            margin-bottom: 15px;
+            
+        }
+        .time .d-flex-2 {
+            display: flex;
+            align-items: center;
+        }
+        .time .timeline-area {
+            padding: 40px 0;
+        }
+        .time .all-timelines {
+            position: relative;
+        }
+
+        .time .all-timelines::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: auto;
+            height: 100%;
+            width: 2px;
+            background: #2e2e2eed;
+            top: 20px;
+        }
+        .time .single-timeline {
+            margin-bottom: 22px;
+        }
+        .time .timeline-blank {
+            width: 50%;
+        }
+        .time .timeline-text {
+            width: 50%;
+            padding-left: 30px;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            position: relative;
+        }
+        .time .timeline-text h6 {
+            color: black;
+            /*font-weight: 900;
+            font-size: 1rem;*/
+            display: inline-block;
+            
+        }
+        .time .timeline-text span {
+            color: gray;
+            display: block;
+            width: 100%;
+        }
+        .time .single-timeline:nth-child(even) .timeline-text span {
+            text-align: right;
+        }
+        .time .t-square {
+            content: "";
+            position: absolute;
+            width: 12px;
+            height: 12px;
+            left: -6px;
+            background: #efa22f;
+        }
+        .time .single-timeline:nth-child(even) {
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: reverse;
+            -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+        }
+        .time .single-timeline:nth-child(even) .t-square {
+            right: -6px;
+            left: unset;
+        }
+        .time .single-timeline:nth-child(even) .timeline-text {
+            padding-left: 0;
+            padding-right: 30px;
+            text-align: right;
         }
     </style>    
 
@@ -117,9 +240,10 @@
       </div>
     </nav>
 	
-	<section id="home" class="main-banner parallaxie" style="background: url('uploads/banner-01.jpg')">
+	<section id="home" class="main-banner parallaxie" style="background: url('uploads/banner-01.png')">
 		<div class="heading">
-			<h1>hello i'm Taku</h1>
+			<h1>hi, i'm Taku</h1>
+            <p> </p>
 			<h3 class="cd-headline clip is-full-width">
 				<span>I am passionate about </span>
 				<span class="cd-words-wrapper">
@@ -129,7 +253,16 @@
 					<b>Automation</b>
 				</span>
 			</h3>
+            <p> </p>
+            <div class="container">
+                <ul class="social-icon">
+                    <li style="font-size: 30px;"><a target="_blank" href="https://github.com/takumh" class="fa fa-github"></a></li>
+                    <li style="font-size: 30px;"><a target="_blank" href="mailto:tmhuru24@amherst.edu" class="fa fa-envelope"></a></li>
+                    <li style="font-size: 30px;"><a target="_blank" href="https://www.linkedin.com/in/takudzwa-mhuru?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BKA9wu2HnQmS243Z8qMI7tQ%3D%3D" class="fa fa-linkedin"></a></li>
+                </ul>
+            </div>
 		</div>
+        
 	</section>
 
 	<!--svg id="clouds" class="hidden-xs" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 85 100" preserveAspectRatio="none">
@@ -160,7 +293,7 @@
     <div id="about" class="section wb">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <!--div class="col-md-6"--> <!--INSERT DIV HERE TO USE IMAGE-->
                     <div class="message-box">                        
                         <h3>About Me</h3>
                         <p> I grew up in Masvingo, Zimbabwe and moved to Massachusetts in 2020 to study Computer Science and Statistics at Amherst College.
@@ -169,22 +302,84 @@
                         </p>
 
                         <!--a href="#" class="sim-btn btn-hover-new" data-text="Download CV"><span>Download CV</span></a-->
-                        <ul class="social-icon">
+                        <!--ul class="social-icon">
                             <li style="font-size: 30px;"><a target="_blank" href="https://github.com/takumh" class="fa fa-github"></a></li>
                             <li style="font-size: 30px;"><a target="_blank" href="mailto:tmhuru24@amherst.edu" class="fa fa-envelope"></a></li>
                             <li style="font-size: 30px;"><a target="_blank" href="https://www.linkedin.com/in/takudzwa-mhuru?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BKA9wu2HnQmS243Z8qMI7tQ%3D%3D" class="fa fa-linkedin"></a></li>
-                        </ul>
-                    </div><!-- end messagebox -->
-                </div><!-- end col -->
+                        </ul-->
+                    </div>
+               
+                
 
-                <div class="col-md-6">
+                <!--div class="col-md-6">
                     <div class="right-box-pro wow fadeIn">
                         <img src="uploads/about_04.jpg" alt="" class="img-fluid img-rounded">
-                    </div><!-- end media -->
-                </div><!-- end col -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </div><!-- end section -->
+                    </div>
+                </div-->  
+            </div>
+
+                <div class="time">
+                    <div class="timeline-area">
+                    <div class="container">
+                        <div class="timelines">
+                            <h2>Experience</h2>
+                        </div>
+                        <div class="all-timelines">
+                            <!--SINGLE TIMELINE-->
+                            <div class="single-timeline d-flex-2">
+                                <div class="timeline-blank"></div>
+                                <div class="timeline-text d-flex-2">
+                                    <span>
+                                        <h6>2021 </h6> — AI Developer <br> Barnard Programming Languages Lab
+                                    </span>
+                                    <div class="t-square"></div>
+                                </div>
+                            </div>
+                            <!--SINGLE TIMELINE-->
+                            <div class="single-timeline d-flex-2">
+                                <div class="timeline-blank"></div>
+                                <div class="timeline-text d-flex-2">
+                                    <span>
+                                        <h6>2021 - 2022 </h6> — Data Analyst <br> Barnard Programming Languages Lab
+                                    </span>
+                                    <div class="t-square"></div>
+                                </div>
+                            </div>
+                            <!--SINGLE TIMELINE-->
+                            <div class="single-timeline d-flex-2">
+                                <div class="timeline-blank"></div>
+                                <div class="timeline-text d-flex-2">
+                                    <span>
+                                        <h6>  2022 </h6> — Web Developer <br> AI in the Liberal Arts Initiative
+                                    </span>
+                                    <div class="t-square"></div>
+                                </div>
+                            </div>
+                            <!--SINGLE TIMELINE-->
+                            <div class="single-timeline d-flex-2">
+                                <div class="timeline-blank"></div>
+                                <div class="timeline-text d-flex-2">
+                                    <span>
+                                        <h6> 2022 </h6> — Data Analyst <br> Coleman Lab, Stanford University
+                                    </span>
+                                    <div class="t-square"></div>
+                                </div>
+                            </div>
+                            <!--SINGLE TIMELINE-->
+                            <div class="single-timeline d-flex-2">
+                                <div class="timeline-blank"></div>
+                                <div class="timeline-text d-flex-2">
+                                    <span>
+                                        <h6>2023</h6> — Operations Analyst <br> PIMCO
+                                    </span>
+                                    <div class="t-square"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
 	
     <div id="services" class="section lb">
         <div class="container">
