@@ -1,2 +1,193 @@
 
-/** ADD YOUR AWESOME CODES HERE **/
+/** ADD YOUR AWESOME CODES HERE**/
+
+/*.time{
+            align-content: left;
+        }
+
+        .time ul {
+        list-style: none;
+        margin: 0 !important;
+        }
+
+        .time a {
+            text-decoration: none !important;
+            display: inline-block;
+        }
+
+        .time img {
+            max-width: 100%;
+        }
+
+        .time button:focus {
+            outline: none;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: inherit;
+            margin: 0;
+        }
+
+       .time p {
+            font-size: 14px;
+            line-height: 26px;
+            margin: 0;
+        }
+
+        .time .container {
+            width: 100%;
+            max-width: 1140px;
+            /*padding: 0 15px;*/
+           /* box-sizing: border-box;
+            margin: 0 auto;
+        } 
+        .time .timelines h2 {
+            text-align: left;
+            color: black;
+            /*font-weight: 600;
+            font-size: 32px;*/ 
+           /* margin-bottom: 15px;
+            
+        }
+        .time .d-flex-2 {
+            display: flex;
+            align-items: center;
+        }
+        .time .timeline-area {
+            padding: 40px 0;
+        }
+        .time .all-timelines {
+            position: relative;
+        }
+
+        .time .all-timelines::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: auto;
+            height: 100%;
+            width: 2px;
+            background: #2e2e2eed;
+            top: 20px;
+        }
+        .time .single-timeline {
+            margin-bottom: 22px;
+        }
+        .time .timeline-blank {
+            width: 50%;
+        }
+        .time .timeline-text {
+            width: 50%;
+            padding-left: 30px;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            position: relative;
+        }
+        .time .timeline-text h6 {
+            color: black;
+            /*font-weight: 900;
+            font-size: 1rem;*/
+           /* display: inline-block;
+            
+        }
+        .time .timeline-text span {
+            color: gray;
+            display: block;
+            width: 100%;
+        }
+        .time .single-timeline:nth-child(even) .timeline-text span {
+            text-align: right;
+        }
+        .time .t-square {
+            content: "";
+            position: absolute;
+            width: 12px;
+            height: 12px;
+            left: -6px;
+            background: #efa22f;
+        }
+        .time .single-timeline:nth-child(even) {
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: reverse;
+            -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+        }
+        .time .single-timeline:nth-child(even) .t-square {
+            right: -6px;
+            left: unset;
+        }
+        .time .single-timeline:nth-child(even) .timeline-text {
+            padding-left: 0;
+            padding-right: 30px;
+            text-align: right;
+        }
+*/
+
+/*   <div class="time">
+                        <div class="timeline-area">
+                            <div class="container">
+                                <div class="timelines">
+                                    <h2>Experience</h2>
+                                </div>
+                                
+                                <div class="all-timelines">
+                                    <!--SINGLE TIMELINE-->
+                                    <div class="single-timeline d-flex-2">
+                                        <div class="timeline-blank"></div>
+                                        <div class="timeline-text d-flex-2">
+                                            <span>
+                                                <h6>2021 </h6> — AI Developer <br> Barnard Programming Languages Lab
+                                            </span>
+                                            <div class="t-square"></div>
+                                        </div>
+                                    </div>
+                                    <!--SINGLE TIMELINE-->
+                                    <div class="single-timeline d-flex-2">
+                                        <div class="timeline-blank"></div>
+                                        <div class="timeline-text d-flex-2">
+                                            <span>
+                                                <h6>2021 - 2022 </h6> — Data Analyst <br> Barnard Programming Languages Lab
+                                            </span>
+                                            <div class="t-square"></div>
+                                        </div>
+                                    </div>
+                                    <!--SINGLE TIMELINE-->
+                                    <div class="single-timeline d-flex-2">
+                                        <div class="timeline-blank"></div>
+                                        <div class="timeline-text d-flex-2">
+                                            <span>
+                                                <h6>  2022 </h6> — Web Developer <br> AI in the Liberal Arts Initiative
+                                            </span>
+                                            <div class="t-square"></div>
+                                        </div>
+                                    </div>
+                                    <!--SINGLE TIMELINE-->
+                                    <div class="single-timeline d-flex-2">
+                                        <div class="timeline-blank"></div>
+                                        <div class="timeline-text d-flex-2">
+                                            <span>
+                                                <h6> 2022 </h6> — Data Analyst <br> Coleman Lab, Stanford University
+                                            </span>
+                                            <div class="t-square"></div>
+                                        </div>
+                                    </div>
+                                    <!--SINGLE TIMELINE-->
+                                    <div class="single-timeline d-flex-2">
+                                        <div class="timeline-blank"></div>
+                                        <div class="timeline-text d-flex-2">
+                                            <span>
+                                                <h6>2023</h6> — Operations Analyst <br> PIMCO
+                                            </span>
+                                            <div class="t-square"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>*/
+
